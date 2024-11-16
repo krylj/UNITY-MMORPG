@@ -60,13 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_Camera.cs" />
+    <Compile Include="Assets\kód\Attack.cs" />
     <Compile Include="Assets\kód\pohybhrace.cs" />
     <Compile Include="Assets\kód\Player_Attack.cs" />
+    <Compile Include="Assets\kód\Enemy_Attack.cs" />
     <Compile Include="Assets\kód\Health.cs" />
     <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_CamNav.cs" />
     <Compile Include="Assets\kód\pohybkamery.cs" />
-    <Compile Include="Assets\kód\Enemy_attack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AQUAS-Lite\Shaders\AQUAS-Lite_Frontface.shader" />

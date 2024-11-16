@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
     void Update(){
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         if (currentHealth <= 0){
-            //light.color = Color.red;
+            light.color = Color.red;
         }
     }
     public void TakeDamage(int damage) {
