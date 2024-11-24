@@ -388,21 +388,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_ExpandedIDs: 30fbffffde610000d4620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: mapa
+        m_OriginalName: mapa
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 25300
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -742,9 +742,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 713.77783, y: -6161.315, z: 8362.367}
+    m_Target: {x: -5112.7705, y: 593.8934, z: 6421.9473}
     speed: 2
-    m_Value: {x: 713.77783, y: -6161.315, z: 8362.367}
+    m_Value: {x: -5112.7705, y: 593.8934, z: 6421.9473}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,20 +790,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.4076269, y: 0.1985305, z: -0.112356484, w: 0.8846995}
+    m_Target: {x: -0.025748258, y: 0.037131906, z: 0.017865315, w: -0.99928045}
     speed: 2
-    m_Value: {x: -0.4076269, y: -0.19853048, z: 0.112356484, w: -0.88469946}
+    m_Value: {x: -0.025574641, y: 0.028124033, z: 0.018087983, w: -0.99911356}
   m_Size:
-    m_Target: 9435.025
+    m_Target: 23.660553
     speed: 2
-    m_Value: 9879.607
+    m_Value: 21.70693
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 2
-    m_SpeedNormalized: 1
+    m_Speed: 1.7001503
+    m_SpeedNormalized: 0.85000014
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
