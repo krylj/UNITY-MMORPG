@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 3272716}
   - component: {fileID: 3272715}
   - component: {fileID: 3272714}
+  - component: {fileID: 3272717}
   m_Layer: 0
   m_Name: Terrain_(-4000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -215,6 +216,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &3272717
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272713}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &6346634
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +241,7 @@ GameObject:
   - component: {fileID: 6346637}
   - component: {fileID: 6346636}
   - component: {fileID: 6346635}
+  - component: {fileID: 6346638}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -308,6 +324,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &6346638
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346634}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &19454413
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +349,7 @@ GameObject:
   - component: {fileID: 19454416}
   - component: {fileID: 19454415}
   - component: {fileID: 19454414}
+  - component: {fileID: 19454417}
   m_Layer: 0
   m_Name: Terrain_(13000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -401,6 +432,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &19454417
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19454413}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &27465854
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +457,7 @@ GameObject:
   - component: {fileID: 27465857}
   - component: {fileID: 27465856}
   - component: {fileID: 27465855}
+  - component: {fileID: 27465858}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -494,6 +540,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &27465858
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27465854}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &61611775
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +565,7 @@ GameObject:
   - component: {fileID: 61611778}
   - component: {fileID: 61611777}
   - component: {fileID: 61611776}
+  - component: {fileID: 61611779}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -587,6 +648,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &61611779
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61611775}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &66140091
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +673,7 @@ GameObject:
   - component: {fileID: 66140092}
   - component: {fileID: 66140094}
   - component: {fileID: 66140093}
+  - component: {fileID: 66140095}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -680,6 +756,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &66140095
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66140091}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &71247275
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +781,7 @@ GameObject:
   - component: {fileID: 71247278}
   - component: {fileID: 71247277}
   - component: {fileID: 71247276}
+  - component: {fileID: 71247279}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, -4000.00)
   m_TagString: Untagged
@@ -773,6 +864,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &71247279
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71247275}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &82192363
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,6 +889,7 @@ GameObject:
   - component: {fileID: 82192366}
   - component: {fileID: 82192365}
   - component: {fileID: 82192364}
+  - component: {fileID: 82192367}
   m_Layer: 0
   m_Name: "M\u011Bsto 2"
   m_TagString: Untagged
@@ -886,6 +992,20 @@ Transform:
   - {fileID: 756086639}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &82192367
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82192363}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &96683550
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,6 +1017,7 @@ GameObject:
   - component: {fileID: 96683553}
   - component: {fileID: 96683552}
   - component: {fileID: 96683551}
+  - component: {fileID: 96683554}
   m_Layer: 0
   m_Name: Terrain_(15000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -979,6 +1100,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &96683554
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96683550}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &97240064
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +1125,7 @@ GameObject:
   - component: {fileID: 97240067}
   - component: {fileID: 97240066}
   - component: {fileID: 97240065}
+  - component: {fileID: 97240068}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 17000.00)
   m_TagString: Untagged
@@ -1072,6 +1208,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &97240068
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97240064}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &98037800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1233,7 @@ GameObject:
   - component: {fileID: 98037801}
   - component: {fileID: 98037803}
   - component: {fileID: 98037802}
+  - component: {fileID: 98037804}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -1165,6 +1316,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &98037804
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98037800}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &116470644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1341,7 @@ GameObject:
   - component: {fileID: 116470647}
   - component: {fileID: 116470646}
   - component: {fileID: 116470645}
+  - component: {fileID: 116470648}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -1258,6 +1424,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &116470648
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116470644}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &137194079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1449,7 @@ GameObject:
   - component: {fileID: 137194082}
   - component: {fileID: 137194081}
   - component: {fileID: 137194080}
+  - component: {fileID: 137194083}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -1351,6 +1532,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &137194083
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137194079}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &145063624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1557,7 @@ GameObject:
   - component: {fileID: 145063627}
   - component: {fileID: 145063626}
   - component: {fileID: 145063625}
+  - component: {fileID: 145063628}
   m_Layer: 0
   m_Name: Terrain_(-7000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -1444,6 +1640,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &145063628
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145063624}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &145094739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1665,7 @@ GameObject:
   - component: {fileID: 145094742}
   - component: {fileID: 145094741}
   - component: {fileID: 145094740}
+  - component: {fileID: 145094743}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -1537,6 +1748,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &145094743
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145094739}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &146158646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1773,7 @@ GameObject:
   - component: {fileID: 146158649}
   - component: {fileID: 146158648}
   - component: {fileID: 146158647}
+  - component: {fileID: 146158650}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -1630,6 +1856,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &146158650
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146158646}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &181828466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1881,7 @@ GameObject:
   - component: {fileID: 181828469}
   - component: {fileID: 181828468}
   - component: {fileID: 181828467}
+  - component: {fileID: 181828470}
   m_Layer: 0
   m_Name: "m\u011Bsto 3"
   m_TagString: Untagged
@@ -1740,8 +1981,23 @@ Transform:
   - {fileID: 740793748}
   - {fileID: 1145640885}
   - {fileID: 904042152}
+  - {fileID: 560144240}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &181828470
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181828466}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &184271022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,6 +2009,7 @@ GameObject:
   - component: {fileID: 184271025}
   - component: {fileID: 184271024}
   - component: {fileID: 184271023}
+  - component: {fileID: 184271026}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -1835,6 +2092,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &184271026
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184271022}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &200953978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +2117,7 @@ GameObject:
   - component: {fileID: 200953981}
   - component: {fileID: 200953980}
   - component: {fileID: 200953979}
+  - component: {fileID: 200953982}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 17000.00)
   m_TagString: Untagged
@@ -1928,6 +2200,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &200953982
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200953978}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &203292350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +2225,7 @@ GameObject:
   - component: {fileID: 203292353}
   - component: {fileID: 203292352}
   - component: {fileID: 203292351}
+  - component: {fileID: 203292354}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -2021,6 +2308,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &203292354
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203292350}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &214728403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,6 +2333,7 @@ GameObject:
   - component: {fileID: 214728406}
   - component: {fileID: 214728405}
   - component: {fileID: 214728404}
+  - component: {fileID: 214728407}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -2114,6 +2416,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &214728407
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214728403}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &239617087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,6 +2441,7 @@ GameObject:
   - component: {fileID: 239617090}
   - component: {fileID: 239617089}
   - component: {fileID: 239617088}
+  - component: {fileID: 239617091}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 16000.00)
   m_TagString: Untagged
@@ -2207,6 +2524,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &239617091
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239617087}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &248810274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,6 +2549,7 @@ GameObject:
   - component: {fileID: 248810277}
   - component: {fileID: 248810276}
   - component: {fileID: 248810275}
+  - component: {fileID: 248810278}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -2300,6 +2632,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &248810278
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248810274}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &252088479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,6 +2657,7 @@ GameObject:
   - component: {fileID: 252088482}
   - component: {fileID: 252088481}
   - component: {fileID: 252088480}
+  - component: {fileID: 252088483}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -2393,6 +2740,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &252088483
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252088479}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &256391090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2404,6 +2765,7 @@ GameObject:
   - component: {fileID: 256391093}
   - component: {fileID: 256391092}
   - component: {fileID: 256391091}
+  - component: {fileID: 256391094}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -2486,6 +2848,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &256391094
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256391090}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &293651803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,6 +2873,7 @@ GameObject:
   - component: {fileID: 293651806}
   - component: {fileID: 293651805}
   - component: {fileID: 293651804}
+  - component: {fileID: 293651807}
   m_Layer: 0
   m_Name: Terrain_(12000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -2579,6 +2956,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &293651807
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293651803}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &314375068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,6 +2981,7 @@ GameObject:
   - component: {fileID: 314375071}
   - component: {fileID: 314375070}
   - component: {fileID: 314375069}
+  - component: {fileID: 314375072}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 14000.00)
   m_TagString: Untagged
@@ -2672,6 +3064,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &314375072
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314375068}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &318917208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,6 +3089,7 @@ GameObject:
   - component: {fileID: 318917211}
   - component: {fileID: 318917210}
   - component: {fileID: 318917209}
+  - component: {fileID: 318917212}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -2765,6 +3172,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &318917212
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318917208}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &335418442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,6 +3197,7 @@ GameObject:
   - component: {fileID: 335418443}
   - component: {fileID: 335418445}
   - component: {fileID: 335418444}
+  - component: {fileID: 335418446}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -2858,6 +3280,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &335418446
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335418442}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &338807246
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +3305,7 @@ GameObject:
   - component: {fileID: 338807249}
   - component: {fileID: 338807248}
   - component: {fileID: 338807247}
+  - component: {fileID: 338807250}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -2951,6 +3388,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &338807250
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338807246}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &358334467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,6 +3413,7 @@ GameObject:
   - component: {fileID: 358334470}
   - component: {fileID: 358334469}
   - component: {fileID: 358334468}
+  - component: {fileID: 358334471}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 17000.00)
   m_TagString: Untagged
@@ -3044,6 +3496,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &358334471
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358334467}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &360993396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3055,6 +3521,7 @@ GameObject:
   - component: {fileID: 360993399}
   - component: {fileID: 360993398}
   - component: {fileID: 360993397}
+  - component: {fileID: 360993400}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, -6000.00)
   m_TagString: Untagged
@@ -3137,6 +3604,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &360993400
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360993396}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &364539893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,6 +3629,7 @@ GameObject:
   - component: {fileID: 364539896}
   - component: {fileID: 364539895}
   - component: {fileID: 364539894}
+  - component: {fileID: 364539897}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, -5000.00)
   m_TagString: Untagged
@@ -3230,6 +3712,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &364539897
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364539893}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &366116013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,6 +3737,7 @@ GameObject:
   - component: {fileID: 366116016}
   - component: {fileID: 366116015}
   - component: {fileID: 366116014}
+  - component: {fileID: 366116017}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -3323,6 +3820,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &366116017
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366116013}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &374870808
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,6 +3845,7 @@ GameObject:
   - component: {fileID: 374870811}
   - component: {fileID: 374870810}
   - component: {fileID: 374870809}
+  - component: {fileID: 374870812}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -3416,6 +3928,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &374870812
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374870808}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &379371977
 GameObject:
   m_ObjectHideFlags: 0
@@ -3427,6 +3953,7 @@ GameObject:
   - component: {fileID: 379371980}
   - component: {fileID: 379371979}
   - component: {fileID: 379371978}
+  - component: {fileID: 379371981}
   m_Layer: 0
   m_Name: Terrain_(-8000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -3509,6 +4036,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &379371981
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379371977}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &384413196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3520,6 +4061,7 @@ GameObject:
   - component: {fileID: 384413199}
   - component: {fileID: 384413198}
   - component: {fileID: 384413197}
+  - component: {fileID: 384413200}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -3602,6 +4144,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &384413200
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384413196}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &396271275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3613,6 +4169,7 @@ GameObject:
   - component: {fileID: 396271278}
   - component: {fileID: 396271277}
   - component: {fileID: 396271276}
+  - component: {fileID: 396271279}
   m_Layer: 0
   m_Name: Terrain_(14000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -3695,6 +4252,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &396271279
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396271275}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &410163104
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,6 +4277,7 @@ GameObject:
   - component: {fileID: 410163107}
   - component: {fileID: 410163106}
   - component: {fileID: 410163105}
+  - component: {fileID: 410163108}
   m_Layer: 0
   m_Name: Terrain_(-6000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -3788,6 +4360,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &410163108
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410163104}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &418762559
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,6 +4385,7 @@ GameObject:
   - component: {fileID: 418762562}
   - component: {fileID: 418762561}
   - component: {fileID: 418762560}
+  - component: {fileID: 418762563}
   m_Layer: 0
   m_Name: Terrain_(-7000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -3881,6 +4468,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &418762563
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418762559}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &432776797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,6 +4493,7 @@ GameObject:
   - component: {fileID: 432776800}
   - component: {fileID: 432776799}
   - component: {fileID: 432776798}
+  - component: {fileID: 432776801}
   m_Layer: 0
   m_Name: Terrain_(-8000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -3974,6 +4576,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &432776801
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432776797}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &444860157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,6 +4601,7 @@ GameObject:
   - component: {fileID: 444860160}
   - component: {fileID: 444860159}
   - component: {fileID: 444860158}
+  - component: {fileID: 444860161}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -4067,6 +4684,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &444860161
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444860157}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &450275863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4078,6 +4709,7 @@ GameObject:
   - component: {fileID: 450275864}
   - component: {fileID: 450275866}
   - component: {fileID: 450275865}
+  - component: {fileID: 450275867}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -4160,6 +4792,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &450275867
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450275863}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &455002921
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,6 +4817,7 @@ GameObject:
   - component: {fileID: 455002924}
   - component: {fileID: 455002923}
   - component: {fileID: 455002922}
+  - component: {fileID: 455002925}
   m_Layer: 0
   m_Name: Terrain_(-6000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -4253,6 +4900,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &455002925
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455002921}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &458568931
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,6 +4925,7 @@ GameObject:
   - component: {fileID: 458568934}
   - component: {fileID: 458568933}
   - component: {fileID: 458568932}
+  - component: {fileID: 458568935}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -4346,6 +5008,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &458568935
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458568931}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &493076292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4357,6 +5033,7 @@ GameObject:
   - component: {fileID: 493076295}
   - component: {fileID: 493076294}
   - component: {fileID: 493076293}
+  - component: {fileID: 493076296}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -2000.00)
   m_TagString: Untagged
@@ -4439,6 +5116,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &493076296
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493076292}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &534186815
 GameObject:
   m_ObjectHideFlags: 0
@@ -4450,6 +5141,7 @@ GameObject:
   - component: {fileID: 534186818}
   - component: {fileID: 534186817}
   - component: {fileID: 534186816}
+  - component: {fileID: 534186819}
   m_Layer: 0
   m_Name: Terrain_(16000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -4532,6 +5224,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &534186819
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534186815}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &536803571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,6 +5249,7 @@ GameObject:
   - component: {fileID: 536803574}
   - component: {fileID: 536803573}
   - component: {fileID: 536803572}
+  - component: {fileID: 536803575}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -4625,6 +5332,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &536803575
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536803571}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &538365300
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,6 +5357,7 @@ GameObject:
   - component: {fileID: 538365301}
   - component: {fileID: 538365303}
   - component: {fileID: 538365302}
+  - component: {fileID: 538365304}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -4718,6 +5440,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &538365304
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538365300}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &543813966
 GameObject:
   m_ObjectHideFlags: 0
@@ -4729,6 +5465,7 @@ GameObject:
   - component: {fileID: 543813969}
   - component: {fileID: 543813968}
   - component: {fileID: 543813967}
+  - component: {fileID: 543813970}
   m_Layer: 0
   m_Name: Terrain_(-5000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -4811,6 +5548,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &543813970
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543813966}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!1 &560144239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560144240}
+  - component: {fileID: 560144243}
+  - component: {fileID: 560144242}
+  - component: {fileID: 560144241}
+  m_Layer: 0
+  m_Name: Voda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560144240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560144239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 174, y: 40, z: 2140}
+  m_LocalScale: {x: 146.76639, y: 88, z: 103.9984}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 181828469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &560144241
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560144239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &560144242
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560144239}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f59ea535bb715ca4da8afac832fd36eb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &560144243
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560144239}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &565040105
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +5679,7 @@ GameObject:
   - component: {fileID: 565040108}
   - component: {fileID: 565040107}
   - component: {fileID: 565040106}
+  - component: {fileID: 565040109}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, -6000.00)
   m_TagString: Untagged
@@ -4904,6 +5762,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &565040109
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565040105}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &641612598
 GameObject:
   m_ObjectHideFlags: 0
@@ -4915,6 +5787,7 @@ GameObject:
   - component: {fileID: 641612601}
   - component: {fileID: 641612600}
   - component: {fileID: 641612599}
+  - component: {fileID: 641612602}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, -4000.00)
   m_TagString: Untagged
@@ -4997,6 +5870,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &641612602
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641612598}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &671825056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5008,6 +5895,7 @@ GameObject:
   - component: {fileID: 671825059}
   - component: {fileID: 671825058}
   - component: {fileID: 671825057}
+  - component: {fileID: 671825060}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -5090,6 +5978,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &671825060
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671825056}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &673643855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,6 +6003,7 @@ GameObject:
   - component: {fileID: 673643858}
   - component: {fileID: 673643857}
   - component: {fileID: 673643856}
+  - component: {fileID: 673643859}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -5183,6 +6086,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &673643859
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673643855}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &678165357
 GameObject:
   m_ObjectHideFlags: 0
@@ -5194,6 +6111,7 @@ GameObject:
   - component: {fileID: 678165360}
   - component: {fileID: 678165359}
   - component: {fileID: 678165358}
+  - component: {fileID: 678165361}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -5276,6 +6194,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &678165361
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678165357}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &694681288
 GameObject:
   m_ObjectHideFlags: 0
@@ -5287,6 +6219,7 @@ GameObject:
   - component: {fileID: 694681291}
   - component: {fileID: 694681290}
   - component: {fileID: 694681289}
+  - component: {fileID: 694681292}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -5369,6 +6302,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &694681292
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694681288}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5379,6 +6326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -5463,6 +6411,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!182 &705507996
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &705971071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,6 +6436,7 @@ GameObject:
   - component: {fileID: 705971074}
   - component: {fileID: 705971073}
   - component: {fileID: 705971072}
+  - component: {fileID: 705971075}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -5556,6 +6519,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &705971075
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705971071}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &715496769
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,6 +6544,7 @@ GameObject:
   - component: {fileID: 715496772}
   - component: {fileID: 715496771}
   - component: {fileID: 715496770}
+  - component: {fileID: 715496773}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -5649,6 +6627,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &715496773
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715496769}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &715986533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5660,6 +6652,7 @@ GameObject:
   - component: {fileID: 715986534}
   - component: {fileID: 715986536}
   - component: {fileID: 715986535}
+  - component: {fileID: 715986537}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -5742,6 +6735,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &715986537
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715986533}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &719361691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5753,6 +6760,7 @@ GameObject:
   - component: {fileID: 719361694}
   - component: {fileID: 719361693}
   - component: {fileID: 719361692}
+  - component: {fileID: 719361695}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -5835,6 +6843,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &719361695
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719361691}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &725245110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5846,6 +6868,7 @@ GameObject:
   - component: {fileID: 725245113}
   - component: {fileID: 725245112}
   - component: {fileID: 725245111}
+  - component: {fileID: 725245114}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -5928,6 +6951,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &725245114
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725245110}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &737513211
 GameObject:
   m_ObjectHideFlags: 0
@@ -5939,6 +6976,7 @@ GameObject:
   - component: {fileID: 737513214}
   - component: {fileID: 737513213}
   - component: {fileID: 737513212}
+  - component: {fileID: 737513215}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 15000.00)
   m_TagString: Untagged
@@ -6021,6 +7059,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &737513215
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737513211}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &740793745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6032,6 +7084,7 @@ GameObject:
   - component: {fileID: 740793748}
   - component: {fileID: 740793747}
   - component: {fileID: 740793746}
+  - component: {fileID: 740793749}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, -7000.00)
   m_TagString: Untagged
@@ -6114,6 +7167,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &740793749
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740793745}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &741390901
 GameObject:
   m_ObjectHideFlags: 0
@@ -6125,6 +7192,7 @@ GameObject:
   - component: {fileID: 741390904}
   - component: {fileID: 741390903}
   - component: {fileID: 741390902}
+  - component: {fileID: 741390905}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -6207,6 +7275,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &741390905
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741390901}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &752399296
 GameObject:
   m_ObjectHideFlags: 0
@@ -6218,6 +7300,7 @@ GameObject:
   - component: {fileID: 752399297}
   - component: {fileID: 752399299}
   - component: {fileID: 752399298}
+  - component: {fileID: 752399300}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -6300,6 +7383,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &752399300
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752399296}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &752415853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,6 +7408,7 @@ GameObject:
   - component: {fileID: 752415856}
   - component: {fileID: 752415855}
   - component: {fileID: 752415854}
+  - component: {fileID: 752415857}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 16000.00)
   m_TagString: Untagged
@@ -6393,6 +7491,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &752415857
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752415853}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &756086638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6405,6 +7517,7 @@ GameObject:
   - component: {fileID: 756086642}
   - component: {fileID: 756086641}
   - component: {fileID: 756086640}
+  - component: {fileID: 756086643}
   m_Layer: 0
   m_Name: Voda
   m_TagString: Untagged
@@ -6499,6 +7612,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756086638}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!182 &756086643
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756086638}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &761583859
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,6 +7637,7 @@ GameObject:
   - component: {fileID: 761583862}
   - component: {fileID: 761583861}
   - component: {fileID: 761583860}
+  - component: {fileID: 761583863}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -6592,6 +7720,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &761583863
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761583859}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &764925450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,6 +7745,7 @@ GameObject:
   - component: {fileID: 764925453}
   - component: {fileID: 764925452}
   - component: {fileID: 764925451}
+  - component: {fileID: 764925454}
   m_Layer: 0
   m_Name: Terrain_(14000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -6685,6 +7828,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &764925454
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764925450}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &769344789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6696,6 +7853,7 @@ GameObject:
   - component: {fileID: 769344792}
   - component: {fileID: 769344791}
   - component: {fileID: 769344790}
+  - component: {fileID: 769344793}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -4000.00)
   m_TagString: Untagged
@@ -6778,6 +7936,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &769344793
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769344789}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &776139708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +7961,7 @@ GameObject:
   - component: {fileID: 776139711}
   - component: {fileID: 776139710}
   - component: {fileID: 776139709}
+  - component: {fileID: 776139712}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -6871,6 +8044,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &776139712
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776139708}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &776481143
 GameObject:
   m_ObjectHideFlags: 0
@@ -6882,6 +8069,7 @@ GameObject:
   - component: {fileID: 776481146}
   - component: {fileID: 776481145}
   - component: {fileID: 776481144}
+  - component: {fileID: 776481147}
   m_Layer: 0
   m_Name: "m\u011Bsto 1"
   m_TagString: Untagged
@@ -6983,6 +8171,20 @@ Transform:
   - {fileID: 1192806680}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &776481147
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776481143}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &783229907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6994,6 +8196,7 @@ GameObject:
   - component: {fileID: 783229910}
   - component: {fileID: 783229909}
   - component: {fileID: 783229908}
+  - component: {fileID: 783229911}
   m_Layer: 0
   m_Name: Terrain_(15000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -7076,6 +8279,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &783229911
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783229907}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &792572137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7087,6 +8304,7 @@ GameObject:
   - component: {fileID: 792572140}
   - component: {fileID: 792572139}
   - component: {fileID: 792572138}
+  - component: {fileID: 792572141}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -7169,6 +8387,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &792572141
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792572137}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &797931346
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,6 +8412,7 @@ GameObject:
   - component: {fileID: 797931349}
   - component: {fileID: 797931348}
   - component: {fileID: 797931347}
+  - component: {fileID: 797931350}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -7262,6 +8495,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &797931350
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797931346}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &848149105
 GameObject:
   m_ObjectHideFlags: 0
@@ -7273,6 +8520,7 @@ GameObject:
   - component: {fileID: 848149108}
   - component: {fileID: 848149107}
   - component: {fileID: 848149106}
+  - component: {fileID: 848149109}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 13000.00)
   m_TagString: Untagged
@@ -7355,6 +8603,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &848149109
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848149105}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &859423684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7366,6 +8628,7 @@ GameObject:
   - component: {fileID: 859423687}
   - component: {fileID: 859423686}
   - component: {fileID: 859423685}
+  - component: {fileID: 859423688}
   m_Layer: 0
   m_Name: Terrain_(13000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -7448,6 +8711,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &859423688
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859423684}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &861932034
 GameObject:
   m_ObjectHideFlags: 0
@@ -7459,6 +8736,7 @@ GameObject:
   - component: {fileID: 861932037}
   - component: {fileID: 861932036}
   - component: {fileID: 861932035}
+  - component: {fileID: 861932038}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -7541,6 +8819,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &861932038
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861932034}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &865297021
 GameObject:
   m_ObjectHideFlags: 0
@@ -7552,6 +8844,7 @@ GameObject:
   - component: {fileID: 865297024}
   - component: {fileID: 865297023}
   - component: {fileID: 865297022}
+  - component: {fileID: 865297025}
   m_Layer: 0
   m_Name: Terrain_(15000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -7634,6 +8927,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &865297025
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865297021}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &866111658
 GameObject:
   m_ObjectHideFlags: 0
@@ -7645,6 +8952,7 @@ GameObject:
   - component: {fileID: 866111661}
   - component: {fileID: 866111660}
   - component: {fileID: 866111659}
+  - component: {fileID: 866111662}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, -4000.00)
   m_TagString: Untagged
@@ -7727,6 +9035,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &866111662
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866111658}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &868504185
 GameObject:
   m_ObjectHideFlags: 0
@@ -7738,6 +9060,7 @@ GameObject:
   - component: {fileID: 868504188}
   - component: {fileID: 868504187}
   - component: {fileID: 868504186}
+  - component: {fileID: 868504189}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 14000.00)
   m_TagString: Untagged
@@ -7820,6 +9143,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &868504189
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868504185}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &887662577
 GameObject:
   m_ObjectHideFlags: 0
@@ -7831,6 +9168,7 @@ GameObject:
   - component: {fileID: 887662578}
   - component: {fileID: 887662580}
   - component: {fileID: 887662579}
+  - component: {fileID: 887662581}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -7913,6 +9251,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &887662581
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887662577}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &888088387
 GameObject:
   m_ObjectHideFlags: 0
@@ -7923,6 +9275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888088389}
   - component: {fileID: 888088388}
+  - component: {fileID: 888088390}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -8007,6 +9360,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1519969067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &888088390
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888088387}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &890590878
 GameObject:
   m_ObjectHideFlags: 0
@@ -8018,6 +9385,7 @@ GameObject:
   - component: {fileID: 890590881}
   - component: {fileID: 890590880}
   - component: {fileID: 890590879}
+  - component: {fileID: 890590882}
   m_Layer: 0
   m_Name: Cesty
   m_TagString: Untagged
@@ -8155,6 +9523,20 @@ Transform:
   - {fileID: 761583862}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &890590882
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890590878}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &893852701
 GameObject:
   m_ObjectHideFlags: 0
@@ -8166,6 +9548,7 @@ GameObject:
   - component: {fileID: 893852704}
   - component: {fileID: 893852703}
   - component: {fileID: 893852702}
+  - component: {fileID: 893852705}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -8248,6 +9631,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &893852705
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893852701}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &904042149
 GameObject:
   m_ObjectHideFlags: 0
@@ -8259,6 +9656,7 @@ GameObject:
   - component: {fileID: 904042152}
   - component: {fileID: 904042151}
   - component: {fileID: 904042150}
+  - component: {fileID: 904042153}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, -7000.00)
   m_TagString: Untagged
@@ -8341,6 +9739,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &904042153
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904042149}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &917962453
 GameObject:
   m_ObjectHideFlags: 0
@@ -8352,6 +9764,7 @@ GameObject:
   - component: {fileID: 917962456}
   - component: {fileID: 917962455}
   - component: {fileID: 917962454}
+  - component: {fileID: 917962457}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -8434,6 +9847,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &917962457
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917962453}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &919688160
 GameObject:
   m_ObjectHideFlags: 0
@@ -8445,6 +9872,7 @@ GameObject:
   - component: {fileID: 919688163}
   - component: {fileID: 919688162}
   - component: {fileID: 919688161}
+  - component: {fileID: 919688164}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -8527,6 +9955,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &919688164
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919688160}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &927284330
 GameObject:
   m_ObjectHideFlags: 0
@@ -8538,6 +9980,7 @@ GameObject:
   - component: {fileID: 927284331}
   - component: {fileID: 927284333}
   - component: {fileID: 927284332}
+  - component: {fileID: 927284334}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -8620,6 +10063,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &927284334
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927284330}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &931172328
 GameObject:
   m_ObjectHideFlags: 0
@@ -8631,6 +10088,7 @@ GameObject:
   - component: {fileID: 931172331}
   - component: {fileID: 931172330}
   - component: {fileID: 931172329}
+  - component: {fileID: 931172332}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -8713,6 +10171,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &931172332
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931172328}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &937086632
 GameObject:
   m_ObjectHideFlags: 0
@@ -8724,6 +10196,7 @@ GameObject:
   - component: {fileID: 937086635}
   - component: {fileID: 937086634}
   - component: {fileID: 937086633}
+  - component: {fileID: 937086636}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -8806,6 +10279,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &937086636
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937086632}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &942828626
 GameObject:
   m_ObjectHideFlags: 0
@@ -8817,6 +10304,7 @@ GameObject:
   - component: {fileID: 942828629}
   - component: {fileID: 942828628}
   - component: {fileID: 942828627}
+  - component: {fileID: 942828630}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, -5000.00)
   m_TagString: Untagged
@@ -8899,6 +10387,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &942828630
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942828626}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &948925805
 GameObject:
   m_ObjectHideFlags: 0
@@ -8910,6 +10412,7 @@ GameObject:
   - component: {fileID: 948925808}
   - component: {fileID: 948925807}
   - component: {fileID: 948925806}
+  - component: {fileID: 948925809}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 15000.00)
   m_TagString: Untagged
@@ -8992,6 +10495,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &948925809
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948925805}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &959578535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9003,6 +10520,7 @@ GameObject:
   - component: {fileID: 959578538}
   - component: {fileID: 959578537}
   - component: {fileID: 959578536}
+  - component: {fileID: 959578539}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -9085,6 +10603,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &959578539
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959578535}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &962027078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9096,6 +10628,7 @@ GameObject:
   - component: {fileID: 962027081}
   - component: {fileID: 962027080}
   - component: {fileID: 962027079}
+  - component: {fileID: 962027082}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -9178,6 +10711,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &962027082
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962027078}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9191,6 +10738,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9307,6 +10855,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hrac: {fileID: 1547705930}
+--- !u!182 &963194231
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &965466536
 GameObject:
   m_ObjectHideFlags: 0
@@ -9318,6 +10880,7 @@ GameObject:
   - component: {fileID: 965466537}
   - component: {fileID: 965466539}
   - component: {fileID: 965466538}
+  - component: {fileID: 965466540}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -9400,6 +10963,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &965466540
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965466536}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &974445993
 GameObject:
   m_ObjectHideFlags: 0
@@ -9411,6 +10988,7 @@ GameObject:
   - component: {fileID: 974445996}
   - component: {fileID: 974445995}
   - component: {fileID: 974445994}
+  - component: {fileID: 974445997}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -9493,6 +11071,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &974445997
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974445993}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &981360360
 GameObject:
   m_ObjectHideFlags: 0
@@ -9504,6 +11096,7 @@ GameObject:
   - component: {fileID: 981360363}
   - component: {fileID: 981360362}
   - component: {fileID: 981360361}
+  - component: {fileID: 981360364}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -9586,6 +11179,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &981360364
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981360360}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &994383234
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,6 +11204,7 @@ GameObject:
   - component: {fileID: 994383237}
   - component: {fileID: 994383236}
   - component: {fileID: 994383235}
+  - component: {fileID: 994383238}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 15000.00)
   m_TagString: Untagged
@@ -9679,6 +11287,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &994383238
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994383234}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1007905099
 GameObject:
   m_ObjectHideFlags: 0
@@ -9690,6 +11312,7 @@ GameObject:
   - component: {fileID: 1007905102}
   - component: {fileID: 1007905101}
   - component: {fileID: 1007905100}
+  - component: {fileID: 1007905103}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -9772,6 +11395,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1007905103
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007905099}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1022510307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9783,6 +11420,7 @@ GameObject:
   - component: {fileID: 1022510310}
   - component: {fileID: 1022510309}
   - component: {fileID: 1022510308}
+  - component: {fileID: 1022510311}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -9865,6 +11503,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1022510311
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022510307}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1024698854
 GameObject:
   m_ObjectHideFlags: 0
@@ -9876,6 +11528,7 @@ GameObject:
   - component: {fileID: 1024698857}
   - component: {fileID: 1024698856}
   - component: {fileID: 1024698855}
+  - component: {fileID: 1024698858}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -9958,6 +11611,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1024698858
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024698854}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1029152992
 GameObject:
   m_ObjectHideFlags: 0
@@ -9969,6 +11636,7 @@ GameObject:
   - component: {fileID: 1029152995}
   - component: {fileID: 1029152994}
   - component: {fileID: 1029152993}
+  - component: {fileID: 1029152996}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -10051,6 +11719,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1029152996
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029152992}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1029167079
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,6 +11744,7 @@ GameObject:
   - component: {fileID: 1029167082}
   - component: {fileID: 1029167081}
   - component: {fileID: 1029167080}
+  - component: {fileID: 1029167083}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -10144,6 +11827,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1029167083
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029167079}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1035287968
 GameObject:
   m_ObjectHideFlags: 0
@@ -10155,6 +11852,7 @@ GameObject:
   - component: {fileID: 1035287971}
   - component: {fileID: 1035287970}
   - component: {fileID: 1035287969}
+  - component: {fileID: 1035287972}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -10237,6 +11935,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1035287972
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035287968}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1037888131
 GameObject:
   m_ObjectHideFlags: 0
@@ -10248,6 +11960,7 @@ GameObject:
   - component: {fileID: 1037888134}
   - component: {fileID: 1037888133}
   - component: {fileID: 1037888132}
+  - component: {fileID: 1037888135}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 12000.00)
   m_TagString: Untagged
@@ -10330,6 +12043,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1037888135
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037888131}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1051595632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,6 +12068,7 @@ GameObject:
   - component: {fileID: 1051595633}
   - component: {fileID: 1051595635}
   - component: {fileID: 1051595634}
+  - component: {fileID: 1051595636}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -10423,6 +12151,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1051595636
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051595632}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1065772262
 GameObject:
   m_ObjectHideFlags: 0
@@ -10435,6 +12177,7 @@ GameObject:
   - component: {fileID: 1065772265}
   - component: {fileID: 1065772264}
   - component: {fileID: 1065772263}
+  - component: {fileID: 1065772267}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -10529,6 +12272,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1065772267
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065772262}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1067840702
 GameObject:
   m_ObjectHideFlags: 0
@@ -10540,6 +12297,7 @@ GameObject:
   - component: {fileID: 1067840705}
   - component: {fileID: 1067840704}
   - component: {fileID: 1067840703}
+  - component: {fileID: 1067840706}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 17000.00)
   m_TagString: Untagged
@@ -10622,6 +12380,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1067840706
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067840702}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1077885626
 GameObject:
   m_ObjectHideFlags: 0
@@ -10633,6 +12405,7 @@ GameObject:
   - component: {fileID: 1077885627}
   - component: {fileID: 1077885629}
   - component: {fileID: 1077885628}
+  - component: {fileID: 1077885630}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -10715,6 +12488,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1077885630
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077885626}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1123918463
 GameObject:
   m_ObjectHideFlags: 0
@@ -10726,6 +12513,7 @@ GameObject:
   - component: {fileID: 1123918466}
   - component: {fileID: 1123918465}
   - component: {fileID: 1123918464}
+  - component: {fileID: 1123918467}
   m_Layer: 0
   m_Name: "M\u011Bsto 4"
   m_TagString: Untagged
@@ -10827,6 +12615,20 @@ Transform:
   - {fileID: 1249208798}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1123918467
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123918463}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1143812368
 GameObject:
   m_ObjectHideFlags: 0
@@ -10838,6 +12640,7 @@ GameObject:
   - component: {fileID: 1143812371}
   - component: {fileID: 1143812370}
   - component: {fileID: 1143812369}
+  - component: {fileID: 1143812372}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -7000.00)
   m_TagString: Untagged
@@ -10920,6 +12723,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1143812372
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143812368}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1144641475
 GameObject:
   m_ObjectHideFlags: 0
@@ -10929,6 +12746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1144641476}
+  - component: {fileID: 1144641477}
   m_Layer: 0
   m_Name: mapa
   m_TagString: Untagged
@@ -10961,6 +12779,20 @@ Transform:
   - {fileID: 1164865385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1144641477
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144641475}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1145321786
 GameObject:
   m_ObjectHideFlags: 0
@@ -10972,6 +12804,7 @@ GameObject:
   - component: {fileID: 1145321789}
   - component: {fileID: 1145321788}
   - component: {fileID: 1145321787}
+  - component: {fileID: 1145321790}
   m_Layer: 0
   m_Name: Terrain_(-5000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -11054,6 +12887,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1145321790
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145321786}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1145640882
 GameObject:
   m_ObjectHideFlags: 0
@@ -11065,6 +12912,7 @@ GameObject:
   - component: {fileID: 1145640885}
   - component: {fileID: 1145640884}
   - component: {fileID: 1145640883}
+  - component: {fileID: 1145640886}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, -7000.00)
   m_TagString: Untagged
@@ -11147,6 +12995,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1145640886
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145640882}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1157986798
 GameObject:
   m_ObjectHideFlags: 0
@@ -11158,6 +13020,7 @@ GameObject:
   - component: {fileID: 1157986801}
   - component: {fileID: 1157986800}
   - component: {fileID: 1157986799}
+  - component: {fileID: 1157986802}
   m_Layer: 0
   m_Name: Terrain_(-6000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -11240,6 +13103,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1157986802
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157986798}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1164865382
 GameObject:
   m_ObjectHideFlags: 0
@@ -11251,6 +13128,7 @@ GameObject:
   - component: {fileID: 1164865385}
   - component: {fileID: 1164865384}
   - component: {fileID: 1164865383}
+  - component: {fileID: 1164865386}
   m_Layer: 0
   m_Name: "Z\xE1kladna D"
   m_TagString: Untagged
@@ -11347,6 +13225,20 @@ Transform:
   - {fileID: 137194082}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1164865386
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164865382}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1168284320
 GameObject:
   m_ObjectHideFlags: 0
@@ -11358,6 +13250,7 @@ GameObject:
   - component: {fileID: 1168284323}
   - component: {fileID: 1168284322}
   - component: {fileID: 1168284321}
+  - component: {fileID: 1168284324}
   m_Layer: 0
   m_Name: "Z\xE1kladna B"
   m_TagString: Untagged
@@ -11454,6 +13347,20 @@ Transform:
   - {fileID: 1543338596}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1168284324
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168284320}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1192505287
 GameObject:
   m_ObjectHideFlags: 0
@@ -11465,6 +13372,7 @@ GameObject:
   - component: {fileID: 1192505290}
   - component: {fileID: 1192505289}
   - component: {fileID: 1192505288}
+  - component: {fileID: 1192505291}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -11547,6 +13455,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1192505291
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192505287}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1192806677
 GameObject:
   m_ObjectHideFlags: 0
@@ -11558,6 +13480,7 @@ GameObject:
   - component: {fileID: 1192806680}
   - component: {fileID: 1192806679}
   - component: {fileID: 1192806678}
+  - component: {fileID: 1192806681}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 14000.00)
   m_TagString: Untagged
@@ -11640,6 +13563,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1192806681
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192806677}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1197338113
 GameObject:
   m_ObjectHideFlags: 0
@@ -11651,6 +13588,7 @@ GameObject:
   - component: {fileID: 1197338116}
   - component: {fileID: 1197338115}
   - component: {fileID: 1197338114}
+  - component: {fileID: 1197338117}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -11733,6 +13671,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1197338117
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197338113}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1199498957
 GameObject:
   m_ObjectHideFlags: 0
@@ -11744,6 +13696,7 @@ GameObject:
   - component: {fileID: 1199498960}
   - component: {fileID: 1199498959}
   - component: {fileID: 1199498958}
+  - component: {fileID: 1199498961}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -11826,6 +13779,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1199498961
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199498957}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1247002709
 GameObject:
   m_ObjectHideFlags: 0
@@ -11837,6 +13804,7 @@ GameObject:
   - component: {fileID: 1247002712}
   - component: {fileID: 1247002711}
   - component: {fileID: 1247002710}
+  - component: {fileID: 1247002713}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -11919,6 +13887,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1247002713
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247002709}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1249208795
 GameObject:
   m_ObjectHideFlags: 0
@@ -11930,6 +13912,7 @@ GameObject:
   - component: {fileID: 1249208798}
   - component: {fileID: 1249208797}
   - component: {fileID: 1249208796}
+  - component: {fileID: 1249208799}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -12012,6 +13995,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1249208799
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249208795}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1253210801
 GameObject:
   m_ObjectHideFlags: 0
@@ -12023,6 +14020,7 @@ GameObject:
   - component: {fileID: 1253210802}
   - component: {fileID: 1253210804}
   - component: {fileID: 1253210803}
+  - component: {fileID: 1253210805}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -12105,6 +14103,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1253210805
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253210801}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1253382023
 GameObject:
   m_ObjectHideFlags: 0
@@ -12116,6 +14128,7 @@ GameObject:
   - component: {fileID: 1253382026}
   - component: {fileID: 1253382025}
   - component: {fileID: 1253382024}
+  - component: {fileID: 1253382027}
   m_Layer: 0
   m_Name: "Z\xE1kladna A"
   m_TagString: Untagged
@@ -12212,6 +14225,20 @@ Transform:
   - {fileID: 27465857}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1253382027
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253382023}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1261199278
 GameObject:
   m_ObjectHideFlags: 0
@@ -12223,6 +14250,7 @@ GameObject:
   - component: {fileID: 1261199279}
   - component: {fileID: 1261199281}
   - component: {fileID: 1261199280}
+  - component: {fileID: 1261199282}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -12305,6 +14333,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1261199282
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261199278}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1264584912
 GameObject:
   m_ObjectHideFlags: 0
@@ -12316,6 +14358,7 @@ GameObject:
   - component: {fileID: 1264584915}
   - component: {fileID: 1264584914}
   - component: {fileID: 1264584913}
+  - component: {fileID: 1264584916}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -12398,6 +14441,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1264584916
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264584912}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1271042790
 GameObject:
   m_ObjectHideFlags: 0
@@ -12409,6 +14466,7 @@ GameObject:
   - component: {fileID: 1271042793}
   - component: {fileID: 1271042792}
   - component: {fileID: 1271042791}
+  - component: {fileID: 1271042794}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -12491,6 +14549,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1271042794
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271042790}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1280669722
 GameObject:
   m_ObjectHideFlags: 0
@@ -12502,6 +14574,7 @@ GameObject:
   - component: {fileID: 1280669725}
   - component: {fileID: 1280669724}
   - component: {fileID: 1280669723}
+  - component: {fileID: 1280669726}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, -6000.00)
   m_TagString: Untagged
@@ -12584,6 +14657,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1280669726
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280669722}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1282007258
 GameObject:
   m_ObjectHideFlags: 0
@@ -12595,6 +14682,7 @@ GameObject:
   - component: {fileID: 1282007261}
   - component: {fileID: 1282007260}
   - component: {fileID: 1282007259}
+  - component: {fileID: 1282007262}
   m_Layer: 0
   m_Name: Terrain_(-8000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -12677,6 +14765,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1282007262
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282007258}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1282469772
 GameObject:
   m_ObjectHideFlags: 0
@@ -12688,6 +14790,7 @@ GameObject:
   - component: {fileID: 1282469775}
   - component: {fileID: 1282469774}
   - component: {fileID: 1282469773}
+  - component: {fileID: 1282469776}
   m_Layer: 0
   m_Name: Terrain_(-7000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -12770,6 +14873,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1282469776
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282469772}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1294440218
 GameObject:
   m_ObjectHideFlags: 0
@@ -12781,6 +14898,7 @@ GameObject:
   - component: {fileID: 1294440221}
   - component: {fileID: 1294440220}
   - component: {fileID: 1294440219}
+  - component: {fileID: 1294440222}
   m_Layer: 0
   m_Name: Terrain_(13000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -12863,6 +14981,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1294440222
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294440218}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1297115782
 GameObject:
   m_ObjectHideFlags: 0
@@ -12874,6 +15006,7 @@ GameObject:
   - component: {fileID: 1297115785}
   - component: {fileID: 1297115784}
   - component: {fileID: 1297115783}
+  - component: {fileID: 1297115786}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -12956,6 +15089,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1297115786
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297115782}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1311414618
 GameObject:
   m_ObjectHideFlags: 0
@@ -12967,6 +15114,7 @@ GameObject:
   - component: {fileID: 1311414621}
   - component: {fileID: 1311414620}
   - component: {fileID: 1311414619}
+  - component: {fileID: 1311414622}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -13049,6 +15197,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1311414622
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311414618}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1316343952
 GameObject:
   m_ObjectHideFlags: 0
@@ -13060,6 +15222,7 @@ GameObject:
   - component: {fileID: 1316343955}
   - component: {fileID: 1316343954}
   - component: {fileID: 1316343953}
+  - component: {fileID: 1316343956}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -13142,6 +15305,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1316343956
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316343952}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1316500497
 GameObject:
   m_ObjectHideFlags: 0
@@ -13153,6 +15330,7 @@ GameObject:
   - component: {fileID: 1316500500}
   - component: {fileID: 1316500499}
   - component: {fileID: 1316500498}
+  - component: {fileID: 1316500501}
   m_Layer: 0
   m_Name: Terrain_(16000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -13235,6 +15413,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1316500501
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316500497}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1330931077
 GameObject:
   m_ObjectHideFlags: 0
@@ -13246,6 +15438,7 @@ GameObject:
   - component: {fileID: 1330931080}
   - component: {fileID: 1330931079}
   - component: {fileID: 1330931078}
+  - component: {fileID: 1330931081}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -13328,6 +15521,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1330931081
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330931077}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1334627179
 GameObject:
   m_ObjectHideFlags: 0
@@ -13339,6 +15546,7 @@ GameObject:
   - component: {fileID: 1334627182}
   - component: {fileID: 1334627181}
   - component: {fileID: 1334627180}
+  - component: {fileID: 1334627183}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 11000.00)
   m_TagString: Untagged
@@ -13421,6 +15629,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1334627183
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334627179}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1353985912
 GameObject:
   m_ObjectHideFlags: 0
@@ -13432,6 +15654,7 @@ GameObject:
   - component: {fileID: 1353985915}
   - component: {fileID: 1353985914}
   - component: {fileID: 1353985913}
+  - component: {fileID: 1353985916}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -3000.00)
   m_TagString: Untagged
@@ -13514,6 +15737,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1353985916
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353985912}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1364967611
 GameObject:
   m_ObjectHideFlags: 0
@@ -13525,6 +15762,7 @@ GameObject:
   - component: {fileID: 1364967614}
   - component: {fileID: 1364967613}
   - component: {fileID: 1364967612}
+  - component: {fileID: 1364967615}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 14000.00)
   m_TagString: Untagged
@@ -13607,6 +15845,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1364967615
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364967611}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1375807116
 GameObject:
   m_ObjectHideFlags: 0
@@ -13620,6 +15872,7 @@ GameObject:
   - component: {fileID: 1375807119}
   - component: {fileID: 1375807118}
   - component: {fileID: 1375807121}
+  - component: {fileID: 1375807122}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Weapon
@@ -13730,6 +15983,20 @@ MonoBehaviour:
   damage: 10
   attackSpeed: 1
   owner: {fileID: 1547705925}
+--- !u!182 &1375807122
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375807116}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1380287352
 GameObject:
   m_ObjectHideFlags: 0
@@ -13741,6 +16008,7 @@ GameObject:
   - component: {fileID: 1380287355}
   - component: {fileID: 1380287354}
   - component: {fileID: 1380287353}
+  - component: {fileID: 1380287356}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -13823,6 +16091,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1380287356
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380287352}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1381734463
 GameObject:
   m_ObjectHideFlags: 0
@@ -13834,6 +16116,7 @@ GameObject:
   - component: {fileID: 1381734466}
   - component: {fileID: 1381734465}
   - component: {fileID: 1381734464}
+  - component: {fileID: 1381734467}
   m_Layer: 0
   m_Name: Terrain_(16000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -13916,6 +16199,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1381734467
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381734463}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1386317183
 GameObject:
   m_ObjectHideFlags: 0
@@ -13927,6 +16224,7 @@ GameObject:
   - component: {fileID: 1386317186}
   - component: {fileID: 1386317185}
   - component: {fileID: 1386317184}
+  - component: {fileID: 1386317187}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -14009,6 +16307,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1386317187
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386317183}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1393597492
 GameObject:
   m_ObjectHideFlags: 0
@@ -14020,6 +16332,7 @@ GameObject:
   - component: {fileID: 1393597495}
   - component: {fileID: 1393597494}
   - component: {fileID: 1393597493}
+  - component: {fileID: 1393597496}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -14102,6 +16415,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1393597496
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393597492}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1395988397
 GameObject:
   m_ObjectHideFlags: 0
@@ -14113,6 +16440,7 @@ GameObject:
   - component: {fileID: 1395988400}
   - component: {fileID: 1395988399}
   - component: {fileID: 1395988398}
+  - component: {fileID: 1395988401}
   m_Layer: 0
   m_Name: Terrain_(-5000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -14195,6 +16523,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1395988401
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395988397}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1401178858
 GameObject:
   m_ObjectHideFlags: 0
@@ -14206,6 +16548,7 @@ GameObject:
   - component: {fileID: 1401178861}
   - component: {fileID: 1401178860}
   - component: {fileID: 1401178859}
+  - component: {fileID: 1401178862}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -14288,6 +16631,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1401178862
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401178858}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1413884397
 GameObject:
   m_ObjectHideFlags: 0
@@ -14299,6 +16656,7 @@ GameObject:
   - component: {fileID: 1413884400}
   - component: {fileID: 1413884399}
   - component: {fileID: 1413884398}
+  - component: {fileID: 1413884401}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -14381,6 +16739,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1413884401
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413884397}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1420398604
 GameObject:
   m_ObjectHideFlags: 0
@@ -14392,6 +16764,7 @@ GameObject:
   - component: {fileID: 1420398607}
   - component: {fileID: 1420398606}
   - component: {fileID: 1420398605}
+  - component: {fileID: 1420398608}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 15000.00)
   m_TagString: Untagged
@@ -14474,6 +16847,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1420398608
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420398604}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1423477767
 GameObject:
   m_ObjectHideFlags: 0
@@ -14485,6 +16872,7 @@ GameObject:
   - component: {fileID: 1423477770}
   - component: {fileID: 1423477769}
   - component: {fileID: 1423477768}
+  - component: {fileID: 1423477771}
   m_Layer: 0
   m_Name: Terrain_(13000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -14567,6 +16955,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1423477771
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423477767}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1446448488
 GameObject:
   m_ObjectHideFlags: 0
@@ -14578,6 +16980,7 @@ GameObject:
   - component: {fileID: 1446448491}
   - component: {fileID: 1446448490}
   - component: {fileID: 1446448489}
+  - component: {fileID: 1446448492}
   m_Layer: 0
   m_Name: Terrain_(16000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -14660,6 +17063,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1446448492
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446448488}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1449004605
 GameObject:
   m_ObjectHideFlags: 0
@@ -14671,6 +17088,7 @@ GameObject:
   - component: {fileID: 1449004608}
   - component: {fileID: 1449004607}
   - component: {fileID: 1449004606}
+  - component: {fileID: 1449004609}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 14000.00)
   m_TagString: Untagged
@@ -14753,6 +17171,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1449004609
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449004605}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1463690801
 GameObject:
   m_ObjectHideFlags: 0
@@ -14764,6 +17196,7 @@ GameObject:
   - component: {fileID: 1463690804}
   - component: {fileID: 1463690803}
   - component: {fileID: 1463690802}
+  - component: {fileID: 1463690805}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -14846,6 +17279,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1463690805
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463690801}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1463778554
 GameObject:
   m_ObjectHideFlags: 0
@@ -14857,6 +17304,7 @@ GameObject:
   - component: {fileID: 1463778557}
   - component: {fileID: 1463778556}
   - component: {fileID: 1463778555}
+  - component: {fileID: 1463778558}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -14939,6 +17387,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1463778558
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463778554}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1470624814
 GameObject:
   m_ObjectHideFlags: 0
@@ -14950,6 +17412,7 @@ GameObject:
   - component: {fileID: 1470624817}
   - component: {fileID: 1470624816}
   - component: {fileID: 1470624815}
+  - component: {fileID: 1470624818}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -15032,6 +17495,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1470624818
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470624814}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1473079957
 GameObject:
   m_ObjectHideFlags: 0
@@ -15043,6 +17520,7 @@ GameObject:
   - component: {fileID: 1473079960}
   - component: {fileID: 1473079959}
   - component: {fileID: 1473079958}
+  - component: {fileID: 1473079961}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -15100,6 +17578,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1473079961
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473079957}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1477085462
 GameObject:
   m_ObjectHideFlags: 0
@@ -15111,6 +17603,7 @@ GameObject:
   - component: {fileID: 1477085463}
   - component: {fileID: 1477085465}
   - component: {fileID: 1477085464}
+  - component: {fileID: 1477085466}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -15193,6 +17686,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1477085466
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477085462}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1478749681
 GameObject:
   m_ObjectHideFlags: 0
@@ -15204,6 +17711,7 @@ GameObject:
   - component: {fileID: 1478749684}
   - component: {fileID: 1478749683}
   - component: {fileID: 1478749682}
+  - component: {fileID: 1478749685}
   m_Layer: 0
   m_Name: Terrain_(-8000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -15286,6 +17794,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1478749685
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478749681}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1506211006
 GameObject:
   m_ObjectHideFlags: 0
@@ -15297,6 +17819,7 @@ GameObject:
   - component: {fileID: 1506211009}
   - component: {fileID: 1506211008}
   - component: {fileID: 1506211007}
+  - component: {fileID: 1506211010}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -15379,6 +17902,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1506211010
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506211006}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1509750242
 GameObject:
   m_ObjectHideFlags: 0
@@ -15390,6 +17927,7 @@ GameObject:
   - component: {fileID: 1509750243}
   - component: {fileID: 1509750245}
   - component: {fileID: 1509750244}
+  - component: {fileID: 1509750246}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -15472,6 +18010,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1509750246
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509750242}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1511600883
 GameObject:
   m_ObjectHideFlags: 0
@@ -15483,6 +18035,7 @@ GameObject:
   - component: {fileID: 1511600886}
   - component: {fileID: 1511600885}
   - component: {fileID: 1511600884}
+  - component: {fileID: 1511600887}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -15565,6 +18118,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1511600887
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511600883}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1519969062
 GameObject:
   m_ObjectHideFlags: 0
@@ -15578,6 +18145,7 @@ GameObject:
   - component: {fileID: 1519969065}
   - component: {fileID: 1519969064}
   - component: {fileID: 1519969063}
+  - component: {fileID: 1519969068}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -15689,6 +18257,20 @@ Transform:
   - {fileID: 888088389}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1519969068
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519969062}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1526327734
 GameObject:
   m_ObjectHideFlags: 0
@@ -15700,6 +18282,7 @@ GameObject:
   - component: {fileID: 1526327737}
   - component: {fileID: 1526327736}
   - component: {fileID: 1526327735}
+  - component: {fileID: 1526327738}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, -5000.00)
   m_TagString: Untagged
@@ -15782,6 +18365,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1526327738
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526327734}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1527958145
 GameObject:
   m_ObjectHideFlags: 0
@@ -15793,6 +18390,7 @@ GameObject:
   - component: {fileID: 1527958148}
   - component: {fileID: 1527958147}
   - component: {fileID: 1527958146}
+  - component: {fileID: 1527958149}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -15875,6 +18473,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1527958149
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527958145}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1540588944
 GameObject:
   m_ObjectHideFlags: 0
@@ -15886,6 +18498,7 @@ GameObject:
   - component: {fileID: 1540588947}
   - component: {fileID: 1540588946}
   - component: {fileID: 1540588945}
+  - component: {fileID: 1540588948}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -15968,6 +18581,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1540588948
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540588944}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1543338593
 GameObject:
   m_ObjectHideFlags: 0
@@ -15979,6 +18606,7 @@ GameObject:
   - component: {fileID: 1543338596}
   - component: {fileID: 1543338595}
   - component: {fileID: 1543338594}
+  - component: {fileID: 1543338597}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -16061,6 +18689,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1543338597
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543338593}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1547705925
 GameObject:
   m_ObjectHideFlags: 0
@@ -16077,6 +18719,7 @@ GameObject:
   - component: {fileID: 1547705932}
   - component: {fileID: 1547705933}
   - component: {fileID: 1547705934}
+  - component: {fileID: 1547705935}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -16165,15 +18808,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547705925}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07724544, y: -0.5593098, z: 0.05245235, w: 0.8236835}
-  m_LocalPosition: {x: -4603.6, y: 340.6, z: 5578.5}
+  m_LocalRotation: {x: -0.047317166, y: 0.7855614, z: 0.08049341, w: 0.6116987}
+  m_LocalPosition: {x: 3024.6, y: 406.8, z: -3798.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
   - {fileID: 1375807117}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 10.715, y: -68.356, z: 0}
+  m_LocalEulerAnglesHint: {x: -10.623, y: 104.055, z: 1.407}
 --- !u!114 &1547705931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16246,6 +18889,20 @@ MonoBehaviour:
   healCooldown: 5
   me: {fileID: 1547705925}
   weapon: {fileID: 1375807116}
+--- !u!182 &1547705935
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547705925}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1555606866
 GameObject:
   m_ObjectHideFlags: 0
@@ -16257,6 +18914,7 @@ GameObject:
   - component: {fileID: 1555606869}
   - component: {fileID: 1555606868}
   - component: {fileID: 1555606867}
+  - component: {fileID: 1555606870}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -16339,6 +18997,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1555606870
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555606866}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1564951583
 GameObject:
   m_ObjectHideFlags: 0
@@ -16350,6 +19022,7 @@ GameObject:
   - component: {fileID: 1564951584}
   - component: {fileID: 1564951586}
   - component: {fileID: 1564951585}
+  - component: {fileID: 1564951587}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -16432,6 +19105,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1564951587
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564951583}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1578315092
 GameObject:
   m_ObjectHideFlags: 0
@@ -16443,6 +19130,7 @@ GameObject:
   - component: {fileID: 1578315095}
   - component: {fileID: 1578315094}
   - component: {fileID: 1578315093}
+  - component: {fileID: 1578315096}
   m_Layer: 0
   m_Name: Terrain_(14000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -16525,6 +19213,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1578315096
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578315092}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1587798337
 GameObject:
   m_ObjectHideFlags: 0
@@ -16536,6 +19238,7 @@ GameObject:
   - component: {fileID: 1587798340}
   - component: {fileID: 1587798339}
   - component: {fileID: 1587798338}
+  - component: {fileID: 1587798341}
   m_Layer: 0
   m_Name: Terrain_(16000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -16618,6 +19321,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1587798341
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587798337}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1656509009
 GameObject:
   m_ObjectHideFlags: 0
@@ -16629,6 +19346,7 @@ GameObject:
   - component: {fileID: 1656509012}
   - component: {fileID: 1656509011}
   - component: {fileID: 1656509010}
+  - component: {fileID: 1656509013}
   m_Layer: 0
   m_Name: Terrain_(9000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -16711,6 +19429,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1656509013
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656509009}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1663708335
 GameObject:
   m_ObjectHideFlags: 0
@@ -16722,6 +19454,7 @@ GameObject:
   - component: {fileID: 1663708338}
   - component: {fileID: 1663708337}
   - component: {fileID: 1663708336}
+  - component: {fileID: 1663708339}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -16804,6 +19537,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1663708339
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663708335}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1663747846
 GameObject:
   m_ObjectHideFlags: 0
@@ -16815,6 +19562,7 @@ GameObject:
   - component: {fileID: 1663747849}
   - component: {fileID: 1663747848}
   - component: {fileID: 1663747847}
+  - component: {fileID: 1663747850}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -16897,6 +19645,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1663747850
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663747846}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1665995888
 GameObject:
   m_ObjectHideFlags: 0
@@ -16908,6 +19670,7 @@ GameObject:
   - component: {fileID: 1665995891}
   - component: {fileID: 1665995890}
   - component: {fileID: 1665995889}
+  - component: {fileID: 1665995892}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, -4000.00)
   m_TagString: Untagged
@@ -16990,6 +19753,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1665995892
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665995888}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1670555941
 GameObject:
   m_ObjectHideFlags: 0
@@ -17001,6 +19778,7 @@ GameObject:
   - component: {fileID: 1670555944}
   - component: {fileID: 1670555943}
   - component: {fileID: 1670555942}
+  - component: {fileID: 1670555945}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -17083,6 +19861,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1670555945
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670555941}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1685417575
 GameObject:
   m_ObjectHideFlags: 0
@@ -17094,6 +19886,7 @@ GameObject:
   - component: {fileID: 1685417578}
   - component: {fileID: 1685417577}
   - component: {fileID: 1685417576}
+  - component: {fileID: 1685417579}
   m_Layer: 0
   m_Name: Terrain_(15000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -17176,6 +19969,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1685417579
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685417575}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1694567364
 GameObject:
   m_ObjectHideFlags: 0
@@ -17187,6 +19994,7 @@ GameObject:
   - component: {fileID: 1694567367}
   - component: {fileID: 1694567366}
   - component: {fileID: 1694567365}
+  - component: {fileID: 1694567368}
   m_Layer: 0
   m_Name: "M\u011Bsto 5"
   m_TagString: Untagged
@@ -17293,6 +20101,20 @@ Transform:
   - {fileID: 974445996}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1694567368
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694567364}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1695524547
 GameObject:
   m_ObjectHideFlags: 0
@@ -17304,6 +20126,7 @@ GameObject:
   - component: {fileID: 1695524550}
   - component: {fileID: 1695524549}
   - component: {fileID: 1695524548}
+  - component: {fileID: 1695524551}
   m_Layer: 0
   m_Name: Terrain_(-5000.00, 259.00, 3000.00)
   m_TagString: Untagged
@@ -17386,6 +20209,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1695524551
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695524547}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1696831032
 GameObject:
   m_ObjectHideFlags: 0
@@ -17397,6 +20234,7 @@ GameObject:
   - component: {fileID: 1696831035}
   - component: {fileID: 1696831034}
   - component: {fileID: 1696831033}
+  - component: {fileID: 1696831036}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -17479,6 +20317,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1696831036
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696831032}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1700314981
 GameObject:
   m_ObjectHideFlags: 0
@@ -17490,6 +20342,7 @@ GameObject:
   - component: {fileID: 1700314984}
   - component: {fileID: 1700314983}
   - component: {fileID: 1700314982}
+  - component: {fileID: 1700314985}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 16000.00)
   m_TagString: Untagged
@@ -17572,6 +20425,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1700314985
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700314981}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1700366449
 GameObject:
   m_ObjectHideFlags: 0
@@ -17583,6 +20450,7 @@ GameObject:
   - component: {fileID: 1700366452}
   - component: {fileID: 1700366451}
   - component: {fileID: 1700366450}
+  - component: {fileID: 1700366453}
   m_Layer: 0
   m_Name: Terrain_(-5000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -17665,6 +20533,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1700366453
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700366449}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1702066902
 GameObject:
   m_ObjectHideFlags: 0
@@ -17676,6 +20558,7 @@ GameObject:
   - component: {fileID: 1702066905}
   - component: {fileID: 1702066904}
   - component: {fileID: 1702066903}
+  - component: {fileID: 1702066906}
   m_Layer: 0
   m_Name: "Z\xE1kladna C"
   m_TagString: Untagged
@@ -17772,6 +20655,20 @@ Transform:
   - {fileID: 1910369894}
   m_Father: {fileID: 1144641476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1702066906
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702066902}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1704619862
 GameObject:
   m_ObjectHideFlags: 0
@@ -17783,6 +20680,7 @@ GameObject:
   - component: {fileID: 1704619865}
   - component: {fileID: 1704619864}
   - component: {fileID: 1704619863}
+  - component: {fileID: 1704619866}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -17865,6 +20763,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1704619866
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704619862}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1704923061
 GameObject:
   m_ObjectHideFlags: 0
@@ -17876,6 +20788,7 @@ GameObject:
   - component: {fileID: 1704923064}
   - component: {fileID: 1704923063}
   - component: {fileID: 1704923062}
+  - component: {fileID: 1704923065}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -17958,6 +20871,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1704923065
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704923061}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1731200191
 GameObject:
   m_ObjectHideFlags: 0
@@ -17969,6 +20896,7 @@ GameObject:
   - component: {fileID: 1731200194}
   - component: {fileID: 1731200193}
   - component: {fileID: 1731200192}
+  - component: {fileID: 1731200195}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -18051,6 +20979,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1731200195
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731200191}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1731479594
 GameObject:
   m_ObjectHideFlags: 0
@@ -18062,6 +21004,7 @@ GameObject:
   - component: {fileID: 1731479597}
   - component: {fileID: 1731479596}
   - component: {fileID: 1731479595}
+  - component: {fileID: 1731479598}
   m_Layer: 0
   m_Name: Terrain_(-6000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -18144,6 +21087,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1731479598
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731479594}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1744207437
 GameObject:
   m_ObjectHideFlags: 0
@@ -18155,6 +21112,7 @@ GameObject:
   - component: {fileID: 1744207440}
   - component: {fileID: 1744207439}
   - component: {fileID: 1744207438}
+  - component: {fileID: 1744207441}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -18237,6 +21195,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1744207441
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744207437}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1746115412
 GameObject:
   m_ObjectHideFlags: 0
@@ -18248,6 +21220,7 @@ GameObject:
   - component: {fileID: 1746115415}
   - component: {fileID: 1746115414}
   - component: {fileID: 1746115413}
+  - component: {fileID: 1746115416}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -18330,6 +21303,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1746115416
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746115412}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1768620228
 GameObject:
   m_ObjectHideFlags: 0
@@ -18341,6 +21328,7 @@ GameObject:
   - component: {fileID: 1768620231}
   - component: {fileID: 1768620230}
   - component: {fileID: 1768620229}
+  - component: {fileID: 1768620232}
   m_Layer: 0
   m_Name: Terrain_(11000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -18423,6 +21411,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1768620232
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768620228}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1772515157
 GameObject:
   m_ObjectHideFlags: 0
@@ -18434,6 +21436,7 @@ GameObject:
   - component: {fileID: 1772515160}
   - component: {fileID: 1772515159}
   - component: {fileID: 1772515158}
+  - component: {fileID: 1772515161}
   m_Layer: 0
   m_Name: Terrain_(10000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -18516,6 +21519,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1772515161
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772515157}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1803925341
 GameObject:
   m_ObjectHideFlags: 0
@@ -18527,6 +21544,7 @@ GameObject:
   - component: {fileID: 1803925344}
   - component: {fileID: 1803925343}
   - component: {fileID: 1803925342}
+  - component: {fileID: 1803925345}
   m_Layer: 0
   m_Name: Terrain_(7000.00, 259.00, 9000.00)
   m_TagString: Untagged
@@ -18609,6 +21627,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1168284323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1803925345
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803925341}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1805013967
 GameObject:
   m_ObjectHideFlags: 0
@@ -18620,6 +21652,7 @@ GameObject:
   - component: {fileID: 1805013970}
   - component: {fileID: 1805013969}
   - component: {fileID: 1805013968}
+  - component: {fileID: 1805013971}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, -6000.00)
   m_TagString: Untagged
@@ -18702,6 +21735,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1805013971
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805013967}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1861671317
 GameObject:
   m_ObjectHideFlags: 0
@@ -18713,6 +21760,7 @@ GameObject:
   - component: {fileID: 1861671320}
   - component: {fileID: 1861671319}
   - component: {fileID: 1861671318}
+  - component: {fileID: 1861671321}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -18795,6 +21843,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1861671321
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861671317}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1872018600
 GameObject:
   m_ObjectHideFlags: 0
@@ -18806,6 +21868,7 @@ GameObject:
   - component: {fileID: 1872018603}
   - component: {fileID: 1872018602}
   - component: {fileID: 1872018601}
+  - component: {fileID: 1872018604}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, -5000.00)
   m_TagString: Untagged
@@ -18888,6 +21951,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1872018604
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872018600}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1891046547
 GameObject:
   m_ObjectHideFlags: 0
@@ -18899,6 +21976,7 @@ GameObject:
   - component: {fileID: 1891046550}
   - component: {fileID: 1891046549}
   - component: {fileID: 1891046548}
+  - component: {fileID: 1891046551}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -18981,6 +22059,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1891046551
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891046547}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1896568612
 GameObject:
   m_ObjectHideFlags: 0
@@ -18992,6 +22084,7 @@ GameObject:
   - component: {fileID: 1896568615}
   - component: {fileID: 1896568614}
   - component: {fileID: 1896568613}
+  - component: {fileID: 1896568616}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -19074,6 +22167,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1896568616
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896568612}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1898481446
 GameObject:
   m_ObjectHideFlags: 0
@@ -19085,6 +22192,7 @@ GameObject:
   - component: {fileID: 1898481449}
   - component: {fileID: 1898481448}
   - component: {fileID: 1898481447}
+  - component: {fileID: 1898481450}
   m_Layer: 0
   m_Name: Terrain_(-6000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -19167,6 +22275,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1898481450
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898481446}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1909289721
 GameObject:
   m_ObjectHideFlags: 0
@@ -19178,6 +22300,7 @@ GameObject:
   - component: {fileID: 1909289724}
   - component: {fileID: 1909289723}
   - component: {fileID: 1909289722}
+  - component: {fileID: 1909289725}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -19260,6 +22383,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1909289725
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909289721}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1910369891
 GameObject:
   m_ObjectHideFlags: 0
@@ -19271,6 +22408,7 @@ GameObject:
   - component: {fileID: 1910369894}
   - component: {fileID: 1910369893}
   - component: {fileID: 1910369892}
+  - component: {fileID: 1910369895}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -19353,6 +22491,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1910369895
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910369891}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1930663539
 GameObject:
   m_ObjectHideFlags: 0
@@ -19364,6 +22516,7 @@ GameObject:
   - component: {fileID: 1930663540}
   - component: {fileID: 1930663542}
   - component: {fileID: 1930663541}
+  - component: {fileID: 1930663543}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -19446,6 +22599,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1930663543
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930663539}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1932145601
 GameObject:
   m_ObjectHideFlags: 0
@@ -19457,6 +22624,7 @@ GameObject:
   - component: {fileID: 1932145604}
   - component: {fileID: 1932145603}
   - component: {fileID: 1932145602}
+  - component: {fileID: 1932145605}
   m_Layer: 0
   m_Name: Terrain_(-1000.00, 259.00, 5000.00)
   m_TagString: Untagged
@@ -19539,6 +22707,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1932145605
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932145601}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1933664508
 GameObject:
   m_ObjectHideFlags: 0
@@ -19550,6 +22732,7 @@ GameObject:
   - component: {fileID: 1933664511}
   - component: {fileID: 1933664510}
   - component: {fileID: 1933664509}
+  - component: {fileID: 1933664512}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -19632,6 +22815,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1933664512
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933664508}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1940746065
 GameObject:
   m_ObjectHideFlags: 0
@@ -19643,6 +22840,7 @@ GameObject:
   - component: {fileID: 1940746068}
   - component: {fileID: 1940746067}
   - component: {fileID: 1940746066}
+  - component: {fileID: 1940746069}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, -7000.00)
   m_TagString: Untagged
@@ -19725,6 +22923,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1940746069
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940746065}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1948954219
 GameObject:
   m_ObjectHideFlags: 0
@@ -19736,6 +22948,7 @@ GameObject:
   - component: {fileID: 1948954222}
   - component: {fileID: 1948954221}
   - component: {fileID: 1948954220}
+  - component: {fileID: 1948954223}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 15000.00)
   m_TagString: Untagged
@@ -19818,6 +23031,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1948954223
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948954219}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1960822240
 GameObject:
   m_ObjectHideFlags: 0
@@ -19829,6 +23056,7 @@ GameObject:
   - component: {fileID: 1960822241}
   - component: {fileID: 1960822243}
   - component: {fileID: 1960822242}
+  - component: {fileID: 1960822244}
   m_Layer: 0
   m_Name: Terrain_(6000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -19911,6 +23139,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &1960822244
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960822240}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1970369649
 GameObject:
   m_ObjectHideFlags: 0
@@ -19922,6 +23164,7 @@ GameObject:
   - component: {fileID: 1970369652}
   - component: {fileID: 1970369651}
   - component: {fileID: 1970369650}
+  - component: {fileID: 1970369653}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, -5000.00)
   m_TagString: Untagged
@@ -20004,6 +23247,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 181828469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1970369653
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970369649}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1978574089
 GameObject:
   m_ObjectHideFlags: 0
@@ -20015,6 +23272,7 @@ GameObject:
   - component: {fileID: 1978574092}
   - component: {fileID: 1978574091}
   - component: {fileID: 1978574090}
+  - component: {fileID: 1978574093}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -20097,6 +23355,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1978574093
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978574089}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1979193356
 GameObject:
   m_ObjectHideFlags: 0
@@ -20108,6 +23380,7 @@ GameObject:
   - component: {fileID: 1979193359}
   - component: {fileID: 1979193358}
   - component: {fileID: 1979193357}
+  - component: {fileID: 1979193360}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 16000.00)
   m_TagString: Untagged
@@ -20190,6 +23463,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1979193360
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979193356}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &1990350828
 GameObject:
   m_ObjectHideFlags: 0
@@ -20201,6 +23488,7 @@ GameObject:
   - component: {fileID: 1990350831}
   - component: {fileID: 1990350830}
   - component: {fileID: 1990350829}
+  - component: {fileID: 1990350832}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -20283,6 +23571,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &1990350832
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990350828}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2024718911
 GameObject:
   m_ObjectHideFlags: 0
@@ -20294,6 +23596,7 @@ GameObject:
   - component: {fileID: 2024718914}
   - component: {fileID: 2024718913}
   - component: {fileID: 2024718912}
+  - component: {fileID: 2024718915}
   m_Layer: 0
   m_Name: Terrain_(-8000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -20376,6 +23679,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2024718915
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024718911}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2033868735
 GameObject:
   m_ObjectHideFlags: 0
@@ -20387,6 +23704,7 @@ GameObject:
   - component: {fileID: 2033868738}
   - component: {fileID: 2033868737}
   - component: {fileID: 2033868736}
+  - component: {fileID: 2033868739}
   m_Layer: 0
   m_Name: Terrain_(14000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -20469,6 +23787,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2033868739
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033868735}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2035391201
 GameObject:
   m_ObjectHideFlags: 0
@@ -20480,6 +23812,7 @@ GameObject:
   - component: {fileID: 2035391204}
   - component: {fileID: 2035391203}
   - component: {fileID: 2035391202}
+  - component: {fileID: 2035391205}
   m_Layer: 0
   m_Name: Terrain_(4000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -20562,6 +23895,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2035391205
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035391201}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2036968756
 GameObject:
   m_ObjectHideFlags: 0
@@ -20573,6 +23920,7 @@ GameObject:
   - component: {fileID: 2036968757}
   - component: {fileID: 2036968759}
   - component: {fileID: 2036968758}
+  - component: {fileID: 2036968760}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -20655,6 +24003,20 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!182 &2036968760
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036968756}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2040294886
 GameObject:
   m_ObjectHideFlags: 0
@@ -20666,6 +24028,7 @@ GameObject:
   - component: {fileID: 2040294889}
   - component: {fileID: 2040294888}
   - component: {fileID: 2040294887}
+  - component: {fileID: 2040294890}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, -1000.00)
   m_TagString: Untagged
@@ -20748,6 +24111,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2040294890
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040294886}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2049660113
 GameObject:
   m_ObjectHideFlags: 0
@@ -20759,6 +24136,7 @@ GameObject:
   - component: {fileID: 2049660116}
   - component: {fileID: 2049660115}
   - component: {fileID: 2049660114}
+  - component: {fileID: 2049660117}
   m_Layer: 0
   m_Name: Terrain_(0.00, 259.00, 10000.00)
   m_TagString: Untagged
@@ -20841,6 +24219,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2049660117
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049660113}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2064832481
 GameObject:
   m_ObjectHideFlags: 0
@@ -20852,6 +24244,7 @@ GameObject:
   - component: {fileID: 2064832484}
   - component: {fileID: 2064832483}
   - component: {fileID: 2064832482}
+  - component: {fileID: 2064832485}
   m_Layer: 0
   m_Name: Terrain_(3000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -20934,6 +24327,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2064832485
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064832481}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2065192025
 GameObject:
   m_ObjectHideFlags: 0
@@ -20945,6 +24352,7 @@ GameObject:
   - component: {fileID: 2065192028}
   - component: {fileID: 2065192027}
   - component: {fileID: 2065192026}
+  - component: {fileID: 2065192029}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 17000.00)
   m_TagString: Untagged
@@ -21027,6 +24435,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 776481146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2065192029
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065192025}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2065246017
 GameObject:
   m_ObjectHideFlags: 0
@@ -21038,6 +24460,7 @@ GameObject:
   - component: {fileID: 2065246020}
   - component: {fileID: 2065246019}
   - component: {fileID: 2065246018}
+  - component: {fileID: 2065246021}
   m_Layer: 0
   m_Name: Terrain_(14000.00, 259.00, 7000.00)
   m_TagString: Untagged
@@ -21120,6 +24543,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2065246021
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065246017}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2076625488
 GameObject:
   m_ObjectHideFlags: 0
@@ -21131,6 +24568,7 @@ GameObject:
   - component: {fileID: 2076625491}
   - component: {fileID: 2076625490}
   - component: {fileID: 2076625489}
+  - component: {fileID: 2076625492}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -21213,6 +24651,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2076625492
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076625488}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2081694741
 GameObject:
   m_ObjectHideFlags: 0
@@ -21224,6 +24676,7 @@ GameObject:
   - component: {fileID: 2081694744}
   - component: {fileID: 2081694743}
   - component: {fileID: 2081694742}
+  - component: {fileID: 2081694745}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -21306,6 +24759,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2081694745
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081694741}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2096143467
 GameObject:
   m_ObjectHideFlags: 0
@@ -21317,6 +24784,7 @@ GameObject:
   - component: {fileID: 2096143470}
   - component: {fileID: 2096143469}
   - component: {fileID: 2096143468}
+  - component: {fileID: 2096143471}
   m_Layer: 0
   m_Name: Terrain_(13000.00, 259.00, 6000.00)
   m_TagString: Untagged
@@ -21399,6 +24867,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1123918466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2096143471
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096143467}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2109534735
 GameObject:
   m_ObjectHideFlags: 0
@@ -21410,6 +24892,7 @@ GameObject:
   - component: {fileID: 2109534738}
   - component: {fileID: 2109534737}
   - component: {fileID: 2109534736}
+  - component: {fileID: 2109534739}
   m_Layer: 0
   m_Name: Terrain_(1000.00, 259.00, 1000.00)
   m_TagString: Untagged
@@ -21492,6 +24975,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1164865385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2109534739
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109534735}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2120957144
 GameObject:
   m_ObjectHideFlags: 0
@@ -21503,6 +25000,7 @@ GameObject:
   - component: {fileID: 2120957147}
   - component: {fileID: 2120957146}
   - component: {fileID: 2120957145}
+  - component: {fileID: 2120957148}
   m_Layer: 0
   m_Name: Terrain_(5000.00, 259.00, 0.00)
   m_TagString: Untagged
@@ -21585,6 +25083,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 890590881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2120957148
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120957144}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2124115844
 GameObject:
   m_ObjectHideFlags: 0
@@ -21596,6 +25108,7 @@ GameObject:
   - component: {fileID: 2124115847}
   - component: {fileID: 2124115846}
   - component: {fileID: 2124115845}
+  - component: {fileID: 2124115848}
   m_Layer: 0
   m_Name: Terrain_(8000.00, 259.00, 2000.00)
   m_TagString: Untagged
@@ -21678,6 +25191,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1702066905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2124115848
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124115844}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2125593958
 GameObject:
   m_ObjectHideFlags: 0
@@ -21689,6 +25216,7 @@ GameObject:
   - component: {fileID: 2125593961}
   - component: {fileID: 2125593960}
   - component: {fileID: 2125593959}
+  - component: {fileID: 2125593962}
   m_Layer: 0
   m_Name: Terrain_(2000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -21771,6 +25299,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694567367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2125593962
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125593958}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2140520613
 GameObject:
   m_ObjectHideFlags: 0
@@ -21782,6 +25324,7 @@ GameObject:
   - component: {fileID: 2140520616}
   - component: {fileID: 2140520615}
   - component: {fileID: 2140520614}
+  - component: {fileID: 2140520617}
   m_Layer: 0
   m_Name: Terrain_(-7000.00, 259.00, 4000.00)
   m_TagString: Untagged
@@ -21864,6 +25407,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 82192366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2140520617
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140520613}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1 &2145379141
 GameObject:
   m_ObjectHideFlags: 0
@@ -21875,6 +25432,7 @@ GameObject:
   - component: {fileID: 2145379144}
   - component: {fileID: 2145379143}
   - component: {fileID: 2145379142}
+  - component: {fileID: 2145379145}
   m_Layer: 0
   m_Name: Terrain_(-2000.00, 259.00, 8000.00)
   m_TagString: Untagged
@@ -21957,6 +25515,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1253382026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!182 &2145379145
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145379141}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
