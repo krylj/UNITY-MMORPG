@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5737062055891377691
 Transform:
   m_ObjectHideFlags: 0
@@ -272,7 +272,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a32d5e474fa23d4180ec89d4e9c3c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
   Speed: 3298.3
+  playerCamera: {fileID: 7386344114800097539}
 --- !u!143 &6975688307705199172
 CharacterController:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class PohybHrace : NetworkBehaviour
 {
     CharacterController characterController;
     public float Speed = 100f;
+    public Camera playerCamera;
 
     // Start is called before the first frame update
     void Start()
@@ -29,4 +30,10 @@ public class PohybHrace : NetworkBehaviour
         characterController.SimpleMove(pohyb);
 
     }
+
+    public override void OnStartLocalPlayer()
+    {
+        playerCamera.gameObject.SetActive(true);
+    }
+
 }
