@@ -5,24 +5,24 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Combat Settings")]
-    public float aggroRange = 10f;      // Dosah, ve kterï¿½m zaï¿½ne nepï¿½ï¿½tel reagovat na hrï¿½ï¿½e
-    public float attackRange = 2f;     // Dosah, ve kterï¿½m nepï¿½ï¿½tel ï¿½toï¿½ï¿½
-    public int damage = 10;            // Poï¿½kozenï¿½ zpï¿½sobenï¿½ hrï¿½ï¿½em
-    public int maxHP = 50;             // Maximï¿½lnï¿½ poï¿½et ï¿½ivotï¿½ nepï¿½ï¿½tele
-    private int currentHP;             // Aktuï¿½lnï¿½ ï¿½ivoty nepï¿½ï¿½tele
+    public float aggroRange = 10f;      // Dosah, ve kterém zaène nepøítel reagovat na hráèe
+    public float attackRange = 2f;     // Dosah, ve kterém nepøítel útoèí
+    public int damage = 10;            // Poškození zpùsobené hráèem
+    public int maxHP = 50;             // Maximální poèet životù nepøítele
+    private int currentHP;             // Aktuální životy nepøítele
 
     [Header("Movement Settings")]
-    public float movementSpeed = 3f;  // Rychlost pohybu nepï¿½ï¿½tele
-    public float movementRange = 15f; // Vzdï¿½lenost, do kterï¿½ se mï¿½ï¿½e nepï¿½ï¿½tel pohybovat od svï¿½ho vï¿½chozï¿½ho bodu
-    private Vector3 startingPosition; // Startovnï¿½ pozice nepï¿½ï¿½tele
+    public float movementSpeed = 3f;  // Rychlost pohybu nepøítele
+    public float movementRange = 15f; // Vzdálenost, do které se mùže nepøítel pohybovat od svého výchozího bodu
+    private Vector3 startingPosition; // Startovní pozice nepøítele
 
     [Header("Player Reference")]
-    public Transform player;          // Odkaz na hrï¿½ï¿½e
+    public Transform player;          // Odkaz na hráèe
 
     void Start()
     {
-        startingPosition = transform.position; // Uloï¿½enï¿½ startovnï¿½ pozice nepï¿½ï¿½tele
-        currentHP = maxHP; // Inicializace ï¿½ivotï¿½
+        startingPosition = transform.position; // Uložení startovní pozice nepøítele
+        currentHP = maxHP; // Inicializace životù
     }
 
     void Update()
@@ -34,18 +34,18 @@ public class EnemyAI : MonoBehaviour
         {
             if (distanceToPlayer > attackRange)
             {
-                // Pronï¿½sledovï¿½nï¿½ hrï¿½ï¿½e
+                // Pronásledování hráèe
                 ChasePlayer();
             }
             else
             {
-                // ï¿½tok na hrï¿½ï¿½e
+                // Útok na hráèe
                 AttackPlayer();
             }
         }
         else if (distanceFromStart > movementRange)
         {
-            // Nï¿½vrat do vï¿½chozï¿½ pozice
+            // Návrat do výchozí pozice
             ReturnToStart();
         }
     }
@@ -58,8 +58,8 @@ public class EnemyAI : MonoBehaviour
 
     void AttackPlayer()
     {
-        Debug.Log("Nepï¿½ï¿½tel ï¿½toï¿½ï¿½! Zpï¿½sobuje " + damage + " poï¿½kozenï¿½.");
-        // Zde mï¿½ï¿½ete pï¿½idat logiku pro snï¿½enï¿½ HP hrï¿½ï¿½e
+        Debug.Log("Nepøítel útoèí! Zpùsobuje " + damage + " poškození.");
+        // Zde mùžete pøidat logiku pro snížení HP hráèe
     }
 
     void ReturnToStart()
@@ -67,7 +67,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 direction = (startingPosition - transform.position).normalized;
         transform.position += direction * movementSpeed * Time.deltaTime;
 
-        // Pokud je nepï¿½ï¿½tel velmi blï¿½zko startovnï¿½ pozice, zastavte ho
+        // Pokud je nepøítel velmi blízko startovní pozice, zastavte ho
         if (Vector3.Distance(transform.position, startingPosition) < 0.1f)
         {
             transform.position = startingPosition;
@@ -77,7 +77,7 @@ public class EnemyAI : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHP -= damage;
-        Debug.Log("Nepï¿½ï¿½tel dostal " + damage + " poï¿½kozenï¿½! Zbï¿½vajï¿½cï¿½ HP: " + currentHP);
+        Debug.Log("Nepøítel dostal " + damage + " poškození! Zbývající HP: " + currentHP);
 
         if (currentHP <= 0)
         {
@@ -87,7 +87,7 @@ public class EnemyAI : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Nepï¿½ï¿½tel zemï¿½el!");
-        Destroy(gameObject); // Smazï¿½nï¿½ nepï¿½ï¿½tele
+        Debug.Log("Nepøítel zemøel!");
+        Destroy(gameObject); // Smazání nepøítele
     }
 }
