@@ -5,24 +5,24 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Combat Settings")]
-    public float aggroRange = 10f;      // Dosah, ve kter�m za�ne nep��tel reagovat na hr��e
-    public float attackRange = 2f;     // Dosah, ve kter�m nep��tel �to��
-    public int damage = 10;            // Po�kozen� zp�soben� hr��em
-    public int maxHP = 50;             // Maxim�ln� po�et �ivot� nep��tele
-    private int currentHP;             // Aktu�ln� �ivoty nep��tele
+    public float aggroRange = 10f;      // Dosah, ve kterém začne nepřítel reagovat na hráče
+    public float attackRange = 2f;     // Dosah, ve kterém nepřítel útočí
+    public int damage = 10;            // Poškození způsobené hráčem
+    public int maxHP = 50;             // Maximální počet životů nepřítele
+    private int currentHP;             // Aktuální životy nepřítele
 
     [Header("Movement Settings")]
-    public float movementSpeed = 3f;  // Rychlost pohybu nep��tele
-    public float movementRange = 15f; // Vzd�lenost, do kter� se m��e nep��tel pohybovat od sv�ho v�choz�ho bodu
-    private Vector3 startingPosition; // Startovn� pozice nep��tele
+    public float movementSpeed = 3f;  // Rychlost pohybu nepřítele
+    public float movementRange = 15f; // Vzdálenost, do které se může nepřítel pohybovat od svého výchozího bodu
+    private Vector3 startingPosition; // Startovní pozice nepřítele
 
     [Header("Player Reference")]
-    public Transform player;          // Odkaz na hr��e
+    public Transform player;          // Odkaz na hráče
 
     void Start()
     {
-        startingPosition = transform.position; // Ulo�en� startovn� pozice nep��tele
-        currentHP = maxHP; // Inicializace �ivot�
+        startingPosition = transform.position; // Uložení startovní pozice nepřítele
+        currentHP = maxHP; // Inicializace životů
     }
 
     void Update()
@@ -34,18 +34,18 @@ public class EnemyAI : MonoBehaviour
         {
             if (distanceToPlayer > attackRange)
             {
-                // Pron�sledov�n� hr��e
+                // Pronásledování hráče
                 ChasePlayer();
             }
             else
             {
-                // �tok na hr��e
+                // Útok na hráče
                 AttackPlayer();
             }
         }
         else if (distanceFromStart > movementRange)
         {
-            // N�vrat do v�choz� pozice
+            // Návrat do výchozí pozice
             ReturnToStart();
         }
     }
@@ -55,11 +55,10 @@ public class EnemyAI : MonoBehaviour
         Vector3 direction = (player.position - transform.position).normalized;
         transform.position += direction * movementSpeed * Time.deltaTime;
     }
-
-    void AttackPlayer()
+void AttackPlayer()
     {
-        Debug.Log("Nep��tel �to��! Zp�sobuje " + damage + " po�kozen�.");
-        // Zde m��ete p�idat logiku pro sn�en� HP hr��e
+        Debug.Log("Nepřítel útočí! Způsobuje " + damage + " poškození.");
+        // Zde můžete přidat logiku pro snížení HP hráče
     }
 
     void ReturnToStart()
@@ -67,7 +66,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 direction = (startingPosition - transform.position).normalized;
         transform.position += direction * movementSpeed * Time.deltaTime;
 
-        // Pokud je nep��tel velmi bl�zko startovn� pozice, zastavte ho
+        // Pokud je nepřítel velmi blízko startovní pozice, zastavte ho
         if (Vector3.Distance(transform.position, startingPosition) < 0.1f)
         {
             transform.position = startingPosition;
@@ -77,7 +76,7 @@ public class EnemyAI : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHP -= damage;
-        Debug.Log("Nep��tel dostal " + damage + " po�kozen�! Zb�vaj�c� HP: " + currentHP);
+        Debug.Log("Nepřítel dostal " + damage + " poškození! Zbývající HP: " + currentHP);
 
         if (currentHP <= 0)
         {
@@ -87,7 +86,7 @@ public class EnemyAI : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Nep��tel zem�el!");
-        Destroy(gameObject); // Smaz�n� nep��tele
+        Debug.Log("Nepřítel zemřel!");
+        Destroy(gameObject); // Smazání nepřítele
     }
 }
