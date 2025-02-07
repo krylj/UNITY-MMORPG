@@ -1,1 +1,0 @@
-This collection of heightmaps is compatible with MicroVerse and requires MicroVerse to be available.
