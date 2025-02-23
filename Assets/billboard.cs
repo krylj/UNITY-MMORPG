@@ -9,8 +9,8 @@ public class Billboard : NetworkBehaviour
     // Standard Billboard script which makes canvas objects always look
     // at the camera
 
-    void LateUpdate()
+    object LateUpdate()
     {
-        transform.LookAt(transform.position + DynamicTextManager.mainCamera.forward);
+            global::System.Object value = transform.LookAt(transform.position + DynamicTextManager.mainCamera.forward);
     }
 }
