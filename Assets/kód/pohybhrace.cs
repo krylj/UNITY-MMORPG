@@ -28,7 +28,6 @@ public class PohybHrace : NetworkBehaviour
 
     float jump = 0f;
 
-    private CharacterController characterController;
   
     void Start()
     {
@@ -39,7 +38,7 @@ public class PohybHrace : NetworkBehaviour
     void Update()
     {
 
-        if (!isLocalPlayer) return; 
+        if (!isLocalPlayer) return;
 
         {
             isGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
@@ -104,10 +103,10 @@ public class PohybHrace : NetworkBehaviour
             float moveZ;
             if (isGrounded && Input.GetKeyDown(KeyCode.Space))
 
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
                     jump = JumpHeight;
-            }
+                }
 
             if (jump > 0)
             {
@@ -133,11 +132,10 @@ public class PohybHrace : NetworkBehaviour
             characterController.Move(velocity * Time.deltaTime);
         }
     }
-    
 
-    public override void OnStartLocalPlayer();
+    public override void OnStartLocalPlayer()
     {
-        playerCamera.gameObject.SetActive(true)
+        playerCamera.gameObject.SetActive(true);
     }
 
 }

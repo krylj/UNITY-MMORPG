@@ -8,7 +8,6 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update
     public int currentHealth = 100;
     public int maxHealth = 100;
-    public Light light;
     void Start(){
 
     }
@@ -17,7 +16,7 @@ public class Health : MonoBehaviour
     void Update(){
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         if (currentHealth <= 0){
-            light.color = Color.red;
+            GetComponent<Light>().color = Color.red;
         }
     }
     public void TakeDamage(int damage) {
