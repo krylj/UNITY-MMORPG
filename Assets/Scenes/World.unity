@@ -230,6 +230,67 @@ WindZone:
   m_WindTurbulence: 1
   m_WindPulseMagnitude: 0.5
   m_WindPulseFrequency: 0.01
+--- !u!1001 &20025234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5458.4746
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 377.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6543.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -465058546966396007, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f59ea535bb715ca4da8afac832fd36eb, type: 2}
+    - target: {fileID: 919132149155446097, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
+      propertyPath: m_Name
+      value: ImageToStl.com_atc - green slime tier 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97616e10a0fbeaf49a87701befa10b27, type: 3}
 --- !u!1 &61611775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13115,3 +13176,4 @@ SceneRoots:
   - {fileID: 824137186}
   - {fileID: 745464171}
   - {fileID: 1985843065}
+  - {fileID: 20025234}
