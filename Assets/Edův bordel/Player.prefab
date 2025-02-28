@@ -275,11 +275,11 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  Speed: 5996.3
+  Speed: 80000
   playerCamera: {fileID: 7386344114800097539}
   Shoulders: {fileID: 4721364146345820193}
   TurnSpeed: 0.1
-  MovementSpeed: 7434.62
+  MovementSpeed: 80000
   JumpHeight: 1
   GroundCheck: {fileID: 4721364146345820193}
   GroundDistance: 0.4
@@ -309,7 +309,7 @@ CharacterController:
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 180
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
