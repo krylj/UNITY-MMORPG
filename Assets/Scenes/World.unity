@@ -507,7 +507,80 @@ WindZone:
   m_WindTurbulence: 1
   m_WindPulseMagnitude: 0.5
   m_WindPulseFrequency: 0.01
+<<<<<<< Updated upstream:Assets/Scenes/World.unity
 --- !u!1 &72706595
+=======
+--- !u!1001 &80153708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 117239471375458142, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 078db982ee4aca44e9ca5d1858b685f9, type: 2}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 977.51166
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 308.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 942.5469
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601927455629964180, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157581347407475339, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7464435159052926878, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      propertyPath: m_Name
+      value: Enemy1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4854235680778489065, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7464435159052926878, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 80153710}
+  m_SourcePrefab: {fileID: 100100000, guid: ebdabafd881735740b1b1565878d5556, type: 3}
+--- !u!1 &80153709 stripped
+>>>>>>> Stashed changes:Assets/Scenes/SampleScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
