@@ -8538,8 +8538,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d9359098ca127447b943b9828de0c5d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1035917646}
   m_SourcePrefab: {fileID: 100100000, guid: 4d9359098ca127447b943b9828de0c5d, type: 3}
+--- !u!1 &1035917645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d9359098ca127447b943b9828de0c5d, type: 3}
+  m_PrefabInstance: {fileID: 1035917644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1035917646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035917645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ca2569379ea9e46aeba96ea65e5196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aggroRange: 10
+  attackRange: 2
+  damage: 10
+  maxHP: 50
+  movementSpeed: 3
+  movementRange: 15
+  player: {fileID: 4721364146345820193, guid: 5097dfb206f4cef448a0351757775cb8, type: 3}
 --- !u!1 &1053089365
 GameObject:
   m_ObjectHideFlags: 0
