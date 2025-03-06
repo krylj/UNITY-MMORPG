@@ -1,11 +1,10 @@
 using UnityEngine;
 using System.Collections.Generic;
-using static UnityEditor.Progress;
 
 public class CraftingManager2 : MonoBehaviour
 {
     public PlayerStats playerStats;
-    public List<Recipe> availableRecipes;
+    public List<Recipe> availableRecipes; // Používá existující Recipe
 
     public void CraftItem(Recipe recipe)
     {
@@ -16,7 +15,7 @@ public class CraftingManager2 : MonoBehaviour
 
             if (success)
             {
-                Item craftedItem = new Item(recipe.itemName, success ? "Masterpiece" : "Normal");
+                Item craftedItem = new Item(recipe.itemName, "Masterpiece");
                 Debug.Log("Crafted item: " + craftedItem.itemName);
             }
             else
@@ -28,13 +27,29 @@ public class CraftingManager2 : MonoBehaviour
 
     private bool HasRequiredItems(Recipe recipe)
     {
-        // Zkontroluj, zda má hráè všechny potøebné suroviny
         return true; // Placeholder
     }
 
     private float CalculateCraftingChance(Recipe recipe)
     {
-        // Zohlední Luck pøi výpoètu šance na úspìch
+        if (playerStats == null)
+        {
+            Debug.LogError("PlayerStats is not assigned!");
+            return 0.5f;
+        }
         return 0.5f + (playerStats.GetLuck() * 0.01f);
+    }
+}
+
+// Definice Item, pokud ještì neexistuje
+public class Item
+{
+    public string itemName;
+    public string quality;
+
+    public Item(string name, string quality)
+    {
+        this.itemName = name;
+        this.quality = quality;
     }
 }
