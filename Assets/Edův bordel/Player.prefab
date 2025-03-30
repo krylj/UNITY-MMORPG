@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3750894666261303728}
   - component: {fileID: 7915159664052318011}
   - component: {fileID: 7950876584608782411}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -163,7 +163,8 @@ GameObject:
   - component: {fileID: 3538719305994220902}
   - component: {fileID: 3219870423340358762}
   - component: {fileID: 8837133796646133080}
-  m_Layer: 3
+  - component: {fileID: -1656247171865669655}
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -275,8 +276,19 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  Speed: 3298.3
+  Speed: 80000
   playerCamera: {fileID: 7386344114800097539}
+  Shoulders: {fileID: 4721364146345820193}
+  TurnSpeed: 0.1
+  MovementSpeed: 80000
+  JumpHeight: 1
+  GroundCheck: {fileID: 4721364146345820193}
+  GroundDistance: 0.4
+  GroundMask:
+    serializedVersion: 2
+    m_Bits: 1
+  Gravity: -9.81
+  isGrounded: 0
 --- !u!143 &6975688307705199172
 CharacterController:
   m_ObjectHideFlags: 0
@@ -298,7 +310,7 @@ CharacterController:
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 180
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -317,7 +329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   maxHealth: 100
-  light: {fileID: 0}
 --- !u!114 &1005698926899011896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +411,24 @@ MonoBehaviour:
   rotationSensitivity: 0.01
   positionPrecision: 0.01
   scalePrecision: 0.01
+--- !u!114 &-1656247171865669655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774631075147765363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12e4247a6e9a25a4aa1cdc1385a4f124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  agility: 1
+  intelligence: 1
+  luck: 1
+  charisma: 1
+  endurance: 1
 --- !u!1 &7005969539826741318
 GameObject:
   m_ObjectHideFlags: 0
