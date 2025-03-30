@@ -68,7 +68,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 8581.1
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -286,7 +286,7 @@ MonoBehaviour:
   GroundDistance: 0.4
   GroundMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   Gravity: -9.81
   isGrounded: 0
 --- !u!143 &6975688307705199172
