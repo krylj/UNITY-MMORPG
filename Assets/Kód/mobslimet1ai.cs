@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class Mob : MonoBehaviour
 {
@@ -12,11 +13,23 @@ public class Mob : MonoBehaviour
     void Start()
     {
         currentHP = maxHP;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        
     }
 
     void Update()
     {
+        if (player == null)
+        {
+            try
+            {
+                player = GameObject.FindGameObjectWithTag("Player").transform;
+            }
+            catch (Exception e)
+            {
+                return;
+            }
+        }
+
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= detectionRange && !isAttacking)
@@ -69,7 +82,8 @@ public class Mob : MonoBehaviour
 
     void Die()
     {
-        Debug.Log(mobName + " has died!");
+        Debug.Log(mobName + " hasdied!");
+    
         Destroy(gameObject);
     }
 
